@@ -102,7 +102,7 @@ namespace Naqra___نقرة
         private void barButtonItem42_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             frm_contact frm_Contact = new frm_contact();
-            frm_Contact.ShowDialog(this);
+            frm_Contact.Show(this);
         }
 
         private void barButtonItem23_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -113,14 +113,19 @@ namespace Naqra___نقرة
 
         private void barButtonItem24_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frm_branch frm_Branch = new frm_branch();
-            frm_Branch.ShowDialog(this);
+                       frm_branch frm_Branch = new frm_branch();   
+            frm_Branch.Show(this);
         }
 
         private void barButtonItem26_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frm_store frm_Store = new frm_store();
-            frm_Store.ShowDialog(this);
+            
+        }
+
+        private void barButtonItem44_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_users frm_Users = new frm_users();
+            frm_Users.Show(this);
         }
     }
 }

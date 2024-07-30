@@ -76,6 +76,7 @@
     <Reference Include="DevExpress.XtraPdfViewer.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraTreeList.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
     </Reference>
@@ -143,17 +144,17 @@
     <Compile Include="frm_sanad.Designer.cs">
       <DependentUpon>frm_sanad.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_store.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_store.Designer.cs">
-      <DependentUpon>frm_store.cs</DependentUpon>
-    </Compile>
     <Compile Include="frm_update.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_update.Designer.cs">
       <DependentUpon>frm_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_users.Designer.cs">
+      <DependentUpon>frm_users.cs</DependentUpon>
     </Compile>
     <Compile Include="myFunc.cs" />
     <Compile Include="Program.cs" />
@@ -188,11 +189,11 @@
     <EmbeddedResource Include="frm_sanad.resx">
       <DependentUpon>frm_sanad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_store.resx">
-      <DependentUpon>frm_store.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frm_update.resx">
       <DependentUpon>frm_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_users.resx">
+      <DependentUpon>frm_users.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -223,6 +224,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\logo.png" />
     <None Include="Resources\printer.png" />
     <None Include="Resources\undraw_Login_re_4vu2 %281%29.png" />
     <None Include="Resources\logoForDark.png" />

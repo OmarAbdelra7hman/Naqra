@@ -17,7 +17,5 @@ namespace Naqra___نقرة
         {
             InitializeComponent();
         }
-
-    
     }
 }

@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement4 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement5 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.XtraEditors.TileItemElement tileItemElement6 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement7 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem3 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.XtraEditors.TileItemElement tileItemElement8 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement9 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.Utils.SuperToolTip superToolTip5 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem5 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.XtraEditors.TileItemElement tileItemElement10 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement11 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement12 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.Utils.SuperToolTip superToolTip6 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem6 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.XtraEditors.TileItemElement tileItemElement13 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement14 = new DevExpress.XtraEditors.TileItemElement();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_main));
-            DevExpress.Utils.SuperToolTip superToolTip4 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem4 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip7 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem7 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip8 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem8 = new DevExpress.Utils.ToolTipItem();
             this.tileControl1 = new DevExpress.XtraEditors.TileControl();
             this.tileGroup1 = new DevExpress.XtraEditors.TileGroup();
             this.tileItem1 = new DevExpress.XtraEditors.TileItem();
@@ -60,8 +60,6 @@
             this.barStaticItem2 = new DevExpress.XtraBars.BarStaticItem();
             this.barStaticItem3 = new DevExpress.XtraBars.BarStaticItem();
             this.barToggleSwitchItem1 = new DevExpress.XtraBars.BarToggleSwitchItem();
-            this.skinDropDownButtonItem2 = new DevExpress.XtraBars.SkinDropDownButtonItem();
-            this.skinPaletteDropDownButtonItem2 = new DevExpress.XtraBars.SkinPaletteDropDownButtonItem();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
@@ -95,6 +93,7 @@
             this.barButtonItem32 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem33 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem34 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem44 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.popupMenu2 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.barButtonItem25 = new DevExpress.XtraBars.BarButtonItem();
@@ -191,13 +190,13 @@
             this.tileControl1.Groups.Add(this.tileGroup1);
             this.tileControl1.Groups.Add(this.tileGroup2);
             this.tileControl1.ItemTextShowMode = DevExpress.XtraEditors.TileItemContentShowMode.Always;
-            this.tileControl1.Location = new System.Drawing.Point(0, 118);
+            this.tileControl1.Location = new System.Drawing.Point(0, 126);
             this.tileControl1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.tileControl1.MaxId = 9;
             this.tileControl1.Name = "tileControl1";
             this.tileControl1.Padding = new System.Windows.Forms.Padding(20, 19, 20, 19);
             this.tileControl1.ShowGroupText = true;
-            this.tileControl1.Size = new System.Drawing.Size(933, 748);
+            this.tileControl1.Size = new System.Drawing.Size(933, 740);
             this.tileControl1.TabIndex = 6;
             this.tileControl1.Text = "tileControl1";
             // 
@@ -217,57 +216,57 @@
             this.tileItem1.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tileItem1.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItem1.AppearanceItem.Normal.Options.UseForeColor = true;
-            tileItemElement1.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI", 9F);
-            tileItemElement1.Appearance.Hovered.Options.UseFont = true;
-            tileItemElement1.Appearance.Hovered.Options.UseTextOptions = true;
-            tileItemElement1.Appearance.Hovered.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement1.Appearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement1.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
-            tileItemElement1.Appearance.Normal.Options.UseFont = true;
-            tileItemElement1.Appearance.Normal.Options.UseTextOptions = true;
-            tileItemElement1.Appearance.Normal.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement1.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement1.Appearance.Selected.Font = new System.Drawing.Font("Segoe UI", 9F);
-            tileItemElement1.Appearance.Selected.Options.UseFont = true;
-            tileItemElement1.Appearance.Selected.Options.UseTextOptions = true;
-            tileItemElement1.Appearance.Selected.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement1.Appearance.Selected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement1.MaxWidth = 200;
-            tileItemElement1.Text = "المبيعات";
-            tileItemElement1.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement1.TextLocation = new System.Drawing.Point(4, 11);
-            tileItemElement2.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Bottom;
-            tileItemElement2.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI Light", 49F);
-            tileItemElement2.Appearance.Hovered.Options.UseFont = true;
-            tileItemElement2.Appearance.Hovered.Options.UseTextOptions = true;
-            tileItemElement2.Appearance.Hovered.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            tileItemElement2.Appearance.Hovered.TextOptions.Trimming = DevExpress.Utils.Trimming.Character;
-            tileItemElement2.Appearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement2.Appearance.Normal.Font = new System.Drawing.Font("beIN Normal ", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            tileItemElement2.Appearance.Normal.Options.UseFont = true;
-            tileItemElement2.Appearance.Normal.Options.UseTextOptions = true;
-            tileItemElement2.Appearance.Normal.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            tileItemElement2.Appearance.Normal.TextOptions.Trimming = DevExpress.Utils.Trimming.Character;
-            tileItemElement2.Appearance.Normal.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
-            tileItemElement2.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement2.Appearance.Selected.Font = new System.Drawing.Font("Segoe UI Light", 49F);
-            tileItemElement2.Appearance.Selected.Options.UseFont = true;
-            tileItemElement2.Appearance.Selected.Options.UseTextOptions = true;
-            tileItemElement2.Appearance.Selected.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            tileItemElement2.Appearance.Selected.TextOptions.Trimming = DevExpress.Utils.Trimming.Character;
-            tileItemElement2.Appearance.Selected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement2.MaxWidth = 300;
-            tileItemElement2.Text = "55,000 EGP";
-            tileItemElement2.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomCenter;
-            tileItemElement2.TextLocation = new System.Drawing.Point(0, -15);
-            this.tileItem1.Elements.Add(tileItemElement1);
-            this.tileItem1.Elements.Add(tileItemElement2);
+            tileItemElement8.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI", 9F);
+            tileItemElement8.Appearance.Hovered.Options.UseFont = true;
+            tileItemElement8.Appearance.Hovered.Options.UseTextOptions = true;
+            tileItemElement8.Appearance.Hovered.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement8.Appearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement8.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
+            tileItemElement8.Appearance.Normal.Options.UseFont = true;
+            tileItemElement8.Appearance.Normal.Options.UseTextOptions = true;
+            tileItemElement8.Appearance.Normal.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement8.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement8.Appearance.Selected.Font = new System.Drawing.Font("Segoe UI", 9F);
+            tileItemElement8.Appearance.Selected.Options.UseFont = true;
+            tileItemElement8.Appearance.Selected.Options.UseTextOptions = true;
+            tileItemElement8.Appearance.Selected.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement8.Appearance.Selected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement8.MaxWidth = 200;
+            tileItemElement8.Text = "المبيعات";
+            tileItemElement8.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement8.TextLocation = new System.Drawing.Point(4, 11);
+            tileItemElement9.AnchorAlignment = DevExpress.Utils.AnchorAlignment.Bottom;
+            tileItemElement9.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI Light", 49F);
+            tileItemElement9.Appearance.Hovered.Options.UseFont = true;
+            tileItemElement9.Appearance.Hovered.Options.UseTextOptions = true;
+            tileItemElement9.Appearance.Hovered.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            tileItemElement9.Appearance.Hovered.TextOptions.Trimming = DevExpress.Utils.Trimming.Character;
+            tileItemElement9.Appearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement9.Appearance.Normal.Font = new System.Drawing.Font("beIN Normal ", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tileItemElement9.Appearance.Normal.Options.UseFont = true;
+            tileItemElement9.Appearance.Normal.Options.UseTextOptions = true;
+            tileItemElement9.Appearance.Normal.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            tileItemElement9.Appearance.Normal.TextOptions.Trimming = DevExpress.Utils.Trimming.Character;
+            tileItemElement9.Appearance.Normal.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
+            tileItemElement9.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement9.Appearance.Selected.Font = new System.Drawing.Font("Segoe UI Light", 49F);
+            tileItemElement9.Appearance.Selected.Options.UseFont = true;
+            tileItemElement9.Appearance.Selected.Options.UseTextOptions = true;
+            tileItemElement9.Appearance.Selected.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            tileItemElement9.Appearance.Selected.TextOptions.Trimming = DevExpress.Utils.Trimming.Character;
+            tileItemElement9.Appearance.Selected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement9.MaxWidth = 300;
+            tileItemElement9.Text = "55,000 EGP";
+            tileItemElement9.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomCenter;
+            tileItemElement9.TextLocation = new System.Drawing.Point(0, -15);
+            this.tileItem1.Elements.Add(tileItemElement8);
+            this.tileItem1.Elements.Add(tileItemElement9);
             this.tileItem1.Id = 3;
             this.tileItem1.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem1.Name = "tileItem1";
-            toolTipItem1.Text = "5000 EGP";
-            superToolTip1.Items.Add(toolTipItem1);
-            this.tileItem1.SuperTip = superToolTip1;
+            toolTipItem5.Text = "5000 EGP";
+            superToolTip5.Items.Add(toolTipItem5);
+            this.tileItem1.SuperTip = superToolTip5;
             // 
             // tileItem2
             // 
@@ -277,8 +276,8 @@
             this.tileItem2.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tileItem2.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItem2.AppearanceItem.Normal.Options.UseForeColor = true;
-            tileItemElement3.Text = "المشتريات";
-            this.tileItem2.Elements.Add(tileItemElement3);
+            tileItemElement10.Text = "المشتريات";
+            this.tileItem2.Elements.Add(tileItemElement10);
             this.tileItem2.Id = 4;
             this.tileItem2.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem2.Name = "tileItem2";
@@ -291,8 +290,8 @@
             this.tileItem3.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tileItem3.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItem3.AppearanceItem.Normal.Options.UseForeColor = true;
-            tileItemElement4.Text = "المصروفات";
-            this.tileItem3.Elements.Add(tileItemElement4);
+            tileItemElement11.Text = "المصروفات";
+            this.tileItem3.Elements.Add(tileItemElement11);
             this.tileItem3.Id = 5;
             this.tileItem3.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem3.Name = "tileItem3";
@@ -314,14 +313,14 @@
             this.tileItem4.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItem4.AppearanceItem.Normal.Options.UseForeColor = true;
             this.tileItem4.ContentAnimation = DevExpress.XtraEditors.TileItemContentAnimationType.Fade;
-            tileItemElement5.Text = "الشيكات";
-            this.tileItem4.Elements.Add(tileItemElement5);
+            tileItemElement12.Text = "الشيكات";
+            this.tileItem4.Elements.Add(tileItemElement12);
             this.tileItem4.Id = 6;
             this.tileItem4.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem4.Name = "tileItem4";
-            toolTipItem2.Text = "5000 EGP";
-            superToolTip2.Items.Add(toolTipItem2);
-            this.tileItem4.SuperTip = superToolTip2;
+            toolTipItem6.Text = "5000 EGP";
+            superToolTip6.Items.Add(toolTipItem6);
+            this.tileItem4.SuperTip = superToolTip6;
             this.tileItem4.TextShowMode = DevExpress.XtraEditors.TileItemContentShowMode.Always;
             // 
             // tileItem5
@@ -332,8 +331,8 @@
             this.tileItem5.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tileItem5.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItem5.AppearanceItem.Normal.Options.UseForeColor = true;
-            tileItemElement6.Text = "الأقساط";
-            this.tileItem5.Elements.Add(tileItemElement6);
+            tileItemElement13.Text = "الأقساط";
+            this.tileItem5.Elements.Add(tileItemElement13);
             this.tileItem5.Id = 7;
             this.tileItem5.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem5.Name = "tileItem5";
@@ -346,8 +345,8 @@
             this.tileItem6.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tileItem6.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItem6.AppearanceItem.Normal.Options.UseForeColor = true;
-            tileItemElement7.Text = "الأصناف المنتهية";
-            this.tileItem6.Elements.Add(tileItemElement7);
+            tileItemElement14.Text = "الأصناف المنتهية";
+            this.tileItem6.Elements.Add(tileItemElement14);
             this.tileItem6.Id = 8;
             this.tileItem6.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem6.Name = "tileItem6";
@@ -371,8 +370,6 @@
             this.skinDropDownButtonItem1,
             this.skinPaletteDropDownButtonItem1,
             this.skinBarSubItem2,
-            this.skinDropDownButtonItem2,
-            this.skinPaletteDropDownButtonItem2,
             this.barButtonItem21,
             this.barButtonItem22});
             this.barManager1.MaxItemId = 18;
@@ -389,9 +386,7 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.barStaticItem1),
             new DevExpress.XtraBars.LinkPersistInfo(this.barStaticItem2),
             new DevExpress.XtraBars.LinkPersistInfo(this.barStaticItem3),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barToggleSwitchItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.skinDropDownButtonItem2),
-            new DevExpress.XtraBars.LinkPersistInfo(this.skinPaletteDropDownButtonItem2)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.barToggleSwitchItem1)});
             this.bar3.OptionsBar.AllowQuickCustomization = false;
             this.bar3.OptionsBar.DrawDragBorder = false;
             this.bar3.OptionsBar.UseWholeRow = true;
@@ -433,21 +428,11 @@
             this.barToggleSwitchItem1.Name = "barToggleSwitchItem1";
             this.barToggleSwitchItem1.CheckedChanged += new DevExpress.XtraBars.ItemClickEventHandler(this.barToggleSwitchItem1_CheckedChanged);
             // 
-            // skinDropDownButtonItem2
-            // 
-            this.skinDropDownButtonItem2.Id = 14;
-            this.skinDropDownButtonItem2.Name = "skinDropDownButtonItem2";
-            // 
-            // skinPaletteDropDownButtonItem2
-            // 
-            this.skinPaletteDropDownButtonItem2.Id = 15;
-            this.skinPaletteDropDownButtonItem2.Name = "skinPaletteDropDownButtonItem2";
-            // 
             // barDockControlTop
             // 
             this.barDockControlTop.CausesValidation = false;
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.barDockControlTop.Location = new System.Drawing.Point(0, 39);
+            this.barDockControlTop.Location = new System.Drawing.Point(0, 47);
             this.barDockControlTop.Manager = this.barManager1;
             this.barDockControlTop.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.barDockControlTop.Size = new System.Drawing.Size(1584, 0);
@@ -465,19 +450,19 @@
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 39);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 47);
             this.barDockControlLeft.Manager = this.barManager1;
             this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 827);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 819);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1584, 39);
+            this.barDockControlRight.Location = new System.Drawing.Point(1584, 47);
             this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 827);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 819);
             // 
             // barButtonItem8
             // 
@@ -554,14 +539,15 @@
             this.barButtonItem37,
             this.barButtonItem38,
             this.barButtonItem39,
-            this.barButtonItem40});
-            this.barManager2.MaxItemId = 32;
+            this.barButtonItem40,
+            this.barButtonItem44});
+            this.barManager2.MaxItemId = 33;
             // 
             // barDockControl1
             // 
             this.barDockControl1.CausesValidation = false;
             this.barDockControl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.barDockControl1.Location = new System.Drawing.Point(0, 39);
+            this.barDockControl1.Location = new System.Drawing.Point(0, 47);
             this.barDockControl1.Manager = this.barManager2;
             this.barDockControl1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.barDockControl1.Size = new System.Drawing.Size(1584, 0);
@@ -579,19 +565,19 @@
             // 
             this.barDockControl3.CausesValidation = false;
             this.barDockControl3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControl3.Location = new System.Drawing.Point(0, 39);
+            this.barDockControl3.Location = new System.Drawing.Point(0, 47);
             this.barDockControl3.Manager = this.barManager2;
             this.barDockControl3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.barDockControl3.Size = new System.Drawing.Size(0, 867);
+            this.barDockControl3.Size = new System.Drawing.Size(0, 859);
             // 
             // barDockControl4
             // 
             this.barDockControl4.CausesValidation = false;
             this.barDockControl4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControl4.Location = new System.Drawing.Point(1584, 39);
+            this.barDockControl4.Location = new System.Drawing.Point(1584, 47);
             this.barDockControl4.Manager = this.barManager2;
             this.barDockControl4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.barDockControl4.Size = new System.Drawing.Size(0, 867);
+            this.barDockControl4.Size = new System.Drawing.Size(0, 859);
             // 
             // barButtonItem1
             // 
@@ -615,7 +601,8 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem31),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem32),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem33),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem34)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem34),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem44)});
             this.pop_main.Manager = this.barManager2;
             this.pop_main.Name = "pop_main";
             // 
@@ -716,6 +703,13 @@
             this.barButtonItem34.Caption = "بيانات المصاريف";
             this.barButtonItem34.Id = 17;
             this.barButtonItem34.Name = "barButtonItem34";
+            // 
+            // barButtonItem44
+            // 
+            this.barButtonItem44.Caption = "بيانات المستخدمين";
+            this.barButtonItem44.Id = 32;
+            this.barButtonItem44.Name = "barButtonItem44";
+            this.barButtonItem44.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem44_ItemClick);
             // 
             // barButtonItem2
             // 
@@ -823,7 +817,7 @@
             // 
             this.barDockControl5.CausesValidation = false;
             this.barDockControl5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.barDockControl5.Location = new System.Drawing.Point(0, 39);
+            this.barDockControl5.Location = new System.Drawing.Point(0, 47);
             this.barDockControl5.Manager = this.barManager3;
             this.barDockControl5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.barDockControl5.Size = new System.Drawing.Size(1584, 0);
@@ -841,19 +835,19 @@
             // 
             this.barDockControl7.CausesValidation = false;
             this.barDockControl7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControl7.Location = new System.Drawing.Point(0, 39);
+            this.barDockControl7.Location = new System.Drawing.Point(0, 47);
             this.barDockControl7.Manager = this.barManager3;
             this.barDockControl7.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.barDockControl7.Size = new System.Drawing.Size(0, 867);
+            this.barDockControl7.Size = new System.Drawing.Size(0, 859);
             // 
             // barDockControl8
             // 
             this.barDockControl8.CausesValidation = false;
             this.barDockControl8.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControl8.Location = new System.Drawing.Point(1584, 39);
+            this.barDockControl8.Location = new System.Drawing.Point(1584, 47);
             this.barDockControl8.Manager = this.barManager3;
             this.barDockControl8.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.barDockControl8.Size = new System.Drawing.Size(0, 867);
+            this.barDockControl8.Size = new System.Drawing.Size(0, 859);
             // 
             // barManager4
             // 
@@ -929,12 +923,16 @@
             this.barButtonItem7.Caption = "البيانات الأساسية";
             this.barButtonItem7.DropDownControl = this.pop_main;
             this.barButtonItem7.Id = 0;
+            this.barButtonItem7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.Image")));
+            this.barButtonItem7.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.LargeImage")));
+            this.barButtonItem7.ItemAppearance.Normal.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem7.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem7.Name = "barButtonItem7";
             this.barButtonItem7.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            toolTipItem3.Text = "يمكنك هذا القسم من اضافة الحسابات الاساسية وتعريف بيانات الشركة واضافة الاصناف وا" +
+            toolTipItem7.Text = "يمكنك هذا القسم من اضافة الحسابات الاساسية وتعريف بيانات الشركة واضافة الاصناف وا" +
     "لعملاء والموردين والمصاريف";
-            superToolTip3.Items.Add(toolTipItem3);
-            this.barButtonItem7.SuperTip = superToolTip3;
+            superToolTip7.Items.Add(toolTipItem7);
+            this.barButtonItem7.SuperTip = superToolTip7;
             this.barButtonItem7.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem7_ItemClick);
             // 
             // barButtonItem9
@@ -1089,9 +1087,9 @@
             this.barButtonItem13.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem13.ImageOptions.LargeImage")));
             this.barButtonItem13.Name = "barButtonItem13";
             this.barButtonItem13.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            toolTipItem4.Text = "asd asdadd asd ";
-            superToolTip4.Items.Add(toolTipItem4);
-            this.barButtonItem13.SuperTip = superToolTip4;
+            toolTipItem8.Text = "asd asdadd asd ";
+            superToolTip8.Items.Add(toolTipItem8);
+            this.barButtonItem13.SuperTip = superToolTip8;
             this.barButtonItem13.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem13_ItemClick);
             // 
             // popupMenu13
@@ -1109,6 +1107,8 @@
             this.barButtonItem15.Id = 7;
             this.barButtonItem15.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem15.ImageOptions.Image")));
             this.barButtonItem15.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem15.ImageOptions.LargeImage")));
+            this.barButtonItem15.ItemAppearance.Normal.Font = new System.Drawing.Font("beIN Normal ", 11.25F);
+            this.barButtonItem15.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem15.Name = "barButtonItem15";
             this.barButtonItem15.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             this.barButtonItem15.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem15_ItemClick);
@@ -1120,7 +1120,7 @@
             this.barDockControl9.Location = new System.Drawing.Point(0, 0);
             this.barDockControl9.Manager = this.barManager4;
             this.barDockControl9.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.barDockControl9.Size = new System.Drawing.Size(1584, 39);
+            this.barDockControl9.Size = new System.Drawing.Size(1584, 47);
             // 
             // barDockControl10
             // 
@@ -1135,19 +1135,19 @@
             // 
             this.barDockControl11.CausesValidation = false;
             this.barDockControl11.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControl11.Location = new System.Drawing.Point(0, 39);
+            this.barDockControl11.Location = new System.Drawing.Point(0, 47);
             this.barDockControl11.Manager = this.barManager4;
             this.barDockControl11.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.barDockControl11.Size = new System.Drawing.Size(0, 867);
+            this.barDockControl11.Size = new System.Drawing.Size(0, 859);
             // 
             // barDockControl12
             // 
             this.barDockControl12.CausesValidation = false;
             this.barDockControl12.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControl12.Location = new System.Drawing.Point(1584, 39);
+            this.barDockControl12.Location = new System.Drawing.Point(1584, 47);
             this.barDockControl12.Manager = this.barManager4;
             this.barDockControl12.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.barDockControl12.Size = new System.Drawing.Size(0, 867);
+            this.barDockControl12.Size = new System.Drawing.Size(0, 859);
             // 
             // barButtonItem16
             // 
@@ -1255,7 +1255,7 @@
             this.tablePanel1.Controls.Add(this.label2);
             this.tablePanel1.Controls.Add(this.searchControl1);
             this.tablePanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tablePanel1.Location = new System.Drawing.Point(0, 39);
+            this.tablePanel1.Location = new System.Drawing.Point(0, 47);
             this.tablePanel1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.tablePanel1.Name = "tablePanel1";
             this.tablePanel1.Rows.AddRange(new DevExpress.Utils.Layout.TablePanelRow[] {
@@ -1439,8 +1439,6 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem18;
         private DevExpress.XtraBars.BarButtonItem barButtonItem16;
         private DevExpress.XtraBars.PopupMenu popupMenu13;
-        private DevExpress.XtraBars.SkinDropDownButtonItem skinDropDownButtonItem2;
-        private DevExpress.XtraBars.SkinPaletteDropDownButtonItem skinPaletteDropDownButtonItem2;
         private DevExpress.XtraBars.SkinBarSubItem skinBarSubItem2;
         private DevExpress.XtraBars.BarToolbarsListItem barToolbarsListItem1;
         private DevExpress.XtraBars.BarSubItem barSubItem1;
@@ -1474,5 +1472,6 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem41;
         private DevExpress.XtraBars.BarButtonItem barButtonItem42;
         private DevExpress.XtraBars.BarButtonItem barButtonItem43;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem44;
     }
 }

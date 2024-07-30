@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Naqra___نقرة
 {
-    public partial class frm_store : DevExpress.XtraEditors.XtraForm
+    public partial class frm_users : DevExpress.XtraEditors.XtraForm
     {
-        public frm_store()
+        public frm_users()
         {
             InitializeComponent();
         }
