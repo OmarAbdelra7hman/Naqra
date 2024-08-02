@@ -113,17 +113,17 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.barDockControlTop.Size = new System.Drawing.Size(359, 0);
+            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.barDockControlTop.Size = new System.Drawing.Size(410, 0);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 633);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 704);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.barDockControlBottom.Size = new System.Drawing.Size(359, 26);
+            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.barDockControlBottom.Size = new System.Drawing.Size(410, 26);
             // 
             // barDockControlLeft
             // 
@@ -131,17 +131,17 @@
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 633);
+            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 704);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(359, 0);
+            this.barDockControlRight.Location = new System.Drawing.Point(410, 0);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 633);
+            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 704);
             // 
             // barButtonItem1
             // 
@@ -201,12 +201,12 @@
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(165)))), ((int)(((byte)(238)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(152)))), ((int)(((byte)(235)))));
             this.guna2Button1.Font = new System.Drawing.Font("beIN Normal ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(43, 484);
+            this.guna2Button1.Location = new System.Drawing.Point(49, 515);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(281, 44);
+            this.guna2Button1.Size = new System.Drawing.Size(321, 41);
             this.guna2Button1.TabIndex = 19;
             this.guna2Button1.Text = "تسجيل الدخول";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -214,62 +214,64 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(38, 284);
+            this.label1.Location = new System.Drawing.Point(43, 314);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 28);
+            this.label1.Size = new System.Drawing.Size(87, 31);
             this.label1.TabIndex = 26;
             this.label1.Text = "اسم المستخدم";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(38, 365);
+            this.label2.Location = new System.Drawing.Point(43, 404);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 28);
+            this.label2.Size = new System.Drawing.Size(69, 31);
             this.label2.TabIndex = 27;
             this.label2.Text = "كلمة المرور";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(43, 315);
+            this.textEdit1.Location = new System.Drawing.Point(49, 349);
             this.textEdit1.MenuManager = this.barManager1;
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit1.Properties.Appearance.Options.UseFont = true;
+            this.textEdit1.Properties.AutoHeight = false;
             this.textEdit1.Properties.ContextImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("textEdit1.Properties.ContextImageOptions.Image")));
             this.textEdit1.Properties.Padding = new System.Windows.Forms.Padding(3);
-            this.textEdit1.Size = new System.Drawing.Size(281, 44);
+            this.textEdit1.Size = new System.Drawing.Size(321, 41);
             this.textEdit1.TabIndex = 45;
             // 
             // textEdit2
             // 
-            this.textEdit2.Location = new System.Drawing.Point(45, 400);
+            this.textEdit2.Location = new System.Drawing.Point(51, 443);
             this.textEdit2.MenuManager = this.barManager1;
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit2.Properties.Appearance.Options.UseFont = true;
+            this.textEdit2.Properties.AutoHeight = false;
             this.textEdit2.Properties.ContextImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("textEdit2.Properties.ContextImageOptions.Image")));
             this.textEdit2.Properties.Padding = new System.Windows.Forms.Padding(6);
             this.textEdit2.Properties.UseSystemPasswordChar = true;
-            this.textEdit2.Size = new System.Drawing.Size(281, 44);
+            this.textEdit2.Size = new System.Drawing.Size(321, 41);
             this.textEdit2.TabIndex = 46;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Naqra___نقرة.Properties.Resources.undraw_Login_re_4vu2__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(54, 67);
+            this.pictureBox1.Location = new System.Drawing.Point(62, 74);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(259, 168);
+            this.pictureBox1.Size = new System.Drawing.Size(296, 186);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 51;
             this.pictureBox1.TabStop = false;
             // 
             // frm_login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 28F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(359, 659);
+            this.ClientSize = new System.Drawing.Size(410, 730);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textEdit2);
             this.Controls.Add(this.textEdit1);
@@ -281,7 +283,7 @@
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
             this.IconOptions.Image = global::Naqra___نقرة.Properties.Resources.نقرة__1_;
-            this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.MaximizeBox = false;
             this.Name = "frm_login";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;

@@ -96,6 +96,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_account_tree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_account_tree.Designer.cs">
+      <DependentUpon>frm_account_tree.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_add_simple.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +171,9 @@
     <Compile Include="SplashScreen1.Designer.cs">
       <DependentUpon>SplashScreen1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frm_account_tree.resx">
+      <DependentUpon>frm_account_tree.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_add_simple.resx">
       <DependentUpon>frm_add_simple.cs</DependentUpon>
     </EmbeddedResource>

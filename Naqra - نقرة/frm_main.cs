@@ -127,5 +127,11 @@ namespace Naqra___نقرة
             frm_users frm_Users = new frm_users();
             frm_Users.Show(this);
         }
+
+        private void barButtonItem45_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_account_tree frm_Account_Tree = new frm_account_tree();
+            frm_Account_Tree.Show(this);
+        }
     }
 }
