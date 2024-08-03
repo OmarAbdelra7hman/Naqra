@@ -225,7 +225,7 @@
             // label14
             // 
             this.label14.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(384, 9);
+            this.label14.Location = new System.Drawing.Point(15, 9);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(110, 33);
@@ -236,7 +236,7 @@
             // textEdit4
             // 
             this.textEdit4.Enabled = false;
-            this.textEdit4.Location = new System.Drawing.Point(48, 10);
+            this.textEdit4.Location = new System.Drawing.Point(131, 10);
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Properties.Appearance.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit4.Properties.Appearance.Options.UseFont = true;
@@ -262,7 +262,7 @@
             // label10
             // 
             this.label10.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(384, 9);
+            this.label10.Location = new System.Drawing.Point(15, 9);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(110, 33);
@@ -272,7 +272,7 @@
             // 
             // textEdit8
             // 
-            this.textEdit8.Location = new System.Drawing.Point(48, 10);
+            this.textEdit8.Location = new System.Drawing.Point(131, 10);
             this.textEdit8.Name = "textEdit8";
             this.textEdit8.Properties.Appearance.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit8.Properties.Appearance.Options.UseFont = true;
@@ -295,7 +295,7 @@
             // label11
             // 
             this.label11.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(384, 9);
+            this.label11.Location = new System.Drawing.Point(15, 9);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(110, 33);
@@ -305,7 +305,7 @@
             // 
             // textEdit7
             // 
-            this.textEdit7.Location = new System.Drawing.Point(48, 10);
+            this.textEdit7.Location = new System.Drawing.Point(131, 10);
             this.textEdit7.Name = "textEdit7";
             this.textEdit7.Properties.Appearance.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit7.Properties.Appearance.Options.UseFont = true;
@@ -327,7 +327,7 @@
             // label12
             // 
             this.label12.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(384, 9);
+            this.label12.Location = new System.Drawing.Point(15, 9);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(110, 33);
@@ -337,7 +337,7 @@
             // 
             // textEdit6
             // 
-            this.textEdit6.Location = new System.Drawing.Point(48, 10);
+            this.textEdit6.Location = new System.Drawing.Point(131, 10);
             this.textEdit6.Name = "textEdit6";
             this.textEdit6.Properties.Appearance.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit6.Properties.Appearance.Options.UseFont = true;
@@ -360,7 +360,7 @@
             // label13
             // 
             this.label13.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(384, 9);
+            this.label13.Location = new System.Drawing.Point(15, 9);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(110, 33);
@@ -370,7 +370,7 @@
             // 
             // textEdit5
             // 
-            this.textEdit5.Location = new System.Drawing.Point(48, 10);
+            this.textEdit5.Location = new System.Drawing.Point(131, 10);
             this.textEdit5.Name = "textEdit5";
             this.textEdit5.Properties.Appearance.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit5.Properties.Appearance.Options.UseFont = true;
@@ -392,7 +392,7 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(384, 9);
+            this.label1.Location = new System.Drawing.Point(15, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(110, 33);
@@ -402,7 +402,7 @@
             // 
             // comboBoxEdit1
             // 
-            this.comboBoxEdit1.Location = new System.Drawing.Point(48, 10);
+            this.comboBoxEdit1.Location = new System.Drawing.Point(131, 10);
             this.comboBoxEdit1.MenuManager = this.operation_bar;
             this.comboBoxEdit1.Name = "comboBoxEdit1";
             this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Arial Narrow", 9F);
@@ -591,7 +591,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(384, 9);
+            this.label2.Location = new System.Drawing.Point(15, 9);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 33);
@@ -601,7 +601,7 @@
             // 
             // comboBoxEdit2
             // 
-            this.comboBoxEdit2.Location = new System.Drawing.Point(48, 10);
+            this.comboBoxEdit2.Location = new System.Drawing.Point(131, 10);
             this.comboBoxEdit2.MenuManager = this.operation_bar;
             this.comboBoxEdit2.Name = "comboBoxEdit2";
             this.comboBoxEdit2.Properties.Appearance.Font = new System.Drawing.Font("Arial Narrow", 9F);
@@ -976,6 +976,9 @@
         }
 
         #endregion
+
+        frm_branch frm_Branch = new frm_branch();
+        
 
         private DevExpress.XtraBars.Navigation.TabPane tabPane1;
         private DevExpress.XtraBars.Navigation.TabNavigationPage tabNavigationPage1;

@@ -133,5 +133,21 @@ namespace Naqra___نقرة
             frm_account_tree frm_Account_Tree = new frm_account_tree();
             frm_Account_Tree.Show(this);
         }
+
+        private void barButtonItem29_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_banks frm_banks = new frm_banks();
+            frm_banks.Show(this);
+        }
+
+        private void barButtonItem46_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+           
+            this.Hide();
+        
+            frm_login frm_login = new frm_login();
+            frm_login.Show(this);
+
+        }
     }
 }

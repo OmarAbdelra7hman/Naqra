@@ -72,11 +72,11 @@
             this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
             this.barStaticItem1 = new DevExpress.XtraBars.BarStaticItem();
             this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
             this.bar5 = new DevExpress.XtraBars.Bar();
             this.barDockControl1 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl2 = new DevExpress.XtraBars.BarDockControl();
@@ -504,7 +504,6 @@
             // 
             this.bar4.BarAppearance.Normal.BackColor = System.Drawing.Color.WhiteSmoke;
             this.bar4.BarAppearance.Normal.Font = new System.Drawing.Font("beIN Normal ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bar4.BarAppearance.Normal.Options.UseBackColor = true;
             this.bar4.BarAppearance.Normal.Options.UseFont = true;
             this.bar4.BarName = "Main menu";
             this.bar4.DockCol = 0;
@@ -598,16 +597,15 @@
             this.barButtonItem8.Id = 7;
             this.barButtonItem8.Name = "barButtonItem8";
             // 
-            // barButtonItem9
+            // barButtonItem10
             // 
-            this.barButtonItem9.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
-            this.barButtonItem9.Caption = "السجل الأخير";
-            this.barButtonItem9.Id = 8;
-            this.barButtonItem9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.Image")));
-            this.barButtonItem9.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.LargeImage")));
-            this.barButtonItem9.ImageToTextAlignment = DevExpress.XtraBars.BarItemImageToTextAlignment.AfterText;
-            this.barButtonItem9.Name = "barButtonItem9";
-            this.barButtonItem9.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.barButtonItem10.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
+            this.barButtonItem10.Caption = "السجل الأول";
+            this.barButtonItem10.Id = 9;
+            this.barButtonItem10.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.Image")));
+            this.barButtonItem10.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.LargeImage")));
+            this.barButtonItem10.Name = "barButtonItem10";
+            this.barButtonItem10.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
             // barButtonItem11
             // 
@@ -627,7 +625,7 @@
             this.barStaticItem1.Caption = "5";
             this.barStaticItem1.ContentHorizontalAlignment = DevExpress.XtraBars.BarItemContentAlignment.Center;
             this.barStaticItem1.Id = 12;
-            this.barStaticItem1.ItemAppearance.Normal.Font = new System.Drawing.Font("Dubai", 9.749999F, System.Drawing.FontStyle.Bold);
+            this.barStaticItem1.ItemAppearance.Normal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold);
             this.barStaticItem1.ItemAppearance.Normal.Options.UseFont = true;
             this.barStaticItem1.Name = "barStaticItem1";
             this.barStaticItem1.Size = new System.Drawing.Size(100, 20);
@@ -644,15 +642,16 @@
             this.barButtonItem12.Name = "barButtonItem12";
             this.barButtonItem12.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
-            // barButtonItem10
+            // barButtonItem9
             // 
-            this.barButtonItem10.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
-            this.barButtonItem10.Caption = "السجل الأول";
-            this.barButtonItem10.Id = 9;
-            this.barButtonItem10.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.Image")));
-            this.barButtonItem10.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.LargeImage")));
-            this.barButtonItem10.Name = "barButtonItem10";
-            this.barButtonItem10.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.barButtonItem9.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
+            this.barButtonItem9.Caption = "السجل الأخير";
+            this.barButtonItem9.Id = 8;
+            this.barButtonItem9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.Image")));
+            this.barButtonItem9.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.LargeImage")));
+            this.barButtonItem9.ImageToTextAlignment = DevExpress.XtraBars.BarItemImageToTextAlignment.AfterText;
+            this.barButtonItem9.Name = "barButtonItem9";
+            this.barButtonItem9.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
             // bar5
             // 
@@ -787,7 +786,6 @@
         private DevExpress.XtraBars.Navigation.TabNavigationPage tabNavigationPage2;
         private DevExpress.XtraBars.BarDockControl barDockControl3;
         private DevExpress.XtraBars.BarManager barManager1;
-        private DevExpress.XtraBars.Bar bar4;
         private DevExpress.XtraBars.Bar bar5;
         private DevExpress.XtraBars.BarDockControl barDockControl1;
         private DevExpress.XtraBars.BarDockControl barDockControl2;
@@ -805,5 +803,6 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem11;
         private DevExpress.XtraBars.BarButtonItem barButtonItem12;
         private DevExpress.XtraBars.BarStaticItem barStaticItem1;
+        public DevExpress.XtraBars.Bar bar4;
     }
 }

@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement4 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.XtraEditors.TileItemElement tileItemElement5 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement6 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement7 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.Utils.SuperToolTip superToolTip5 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem5 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.XtraEditors.TileItemElement tileItemElement8 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement9 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement10 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.Utils.SuperToolTip superToolTip6 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem6 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.XtraEditors.TileItemElement tileItemElement11 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement12 = new DevExpress.XtraEditors.TileItemElement();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_main));
-            DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem3 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip4 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem4 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip7 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem7 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip8 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem8 = new DevExpress.Utils.ToolTipItem();
             this.tileControl1 = new DevExpress.XtraEditors.TileControl();
             this.tileGroup1 = new DevExpress.XtraEditors.TileGroup();
             this.tileItem1 = new DevExpress.XtraEditors.TileItem();
@@ -126,6 +126,7 @@
             this.barButtonItem41 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem42 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem43 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem46 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
             this.popupMenu11 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
@@ -213,66 +214,66 @@
             // 
             // tileItem1
             // 
-            this.tileItem1.AppearanceItem.Normal.BackColor = System.Drawing.Color.Silver;
+            this.tileItem1.AppearanceItem.Normal.BackColor = System.Drawing.Color.Transparent;
             this.tileItem1.AppearanceItem.Normal.BorderColor = System.Drawing.SystemColors.ActiveBorder;
-            this.tileItem1.AppearanceItem.Normal.ForeColor = System.Drawing.Color.Gray;
+            this.tileItem1.AppearanceItem.Normal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(77)))), ((int)(((byte)(134)))));
             this.tileItem1.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tileItem1.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItem1.AppearanceItem.Normal.Options.UseForeColor = true;
             this.tileItem1.BorderVisibility = DevExpress.XtraEditors.TileItemBorderVisibility.Always;
-            tileItemElement1.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI", 9F);
-            tileItemElement1.Appearance.Hovered.Options.UseFont = true;
-            tileItemElement1.Appearance.Hovered.Options.UseTextOptions = true;
-            tileItemElement1.Appearance.Hovered.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement1.Appearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement1.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
-            tileItemElement1.Appearance.Normal.Options.UseFont = true;
-            tileItemElement1.Appearance.Normal.Options.UseTextOptions = true;
-            tileItemElement1.Appearance.Normal.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement1.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement1.Appearance.Selected.Font = new System.Drawing.Font("Segoe UI", 9F);
-            tileItemElement1.Appearance.Selected.Options.UseFont = true;
-            tileItemElement1.Appearance.Selected.Options.UseTextOptions = true;
-            tileItemElement1.Appearance.Selected.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement1.Appearance.Selected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement1.MaxWidth = 200;
-            tileItemElement1.Text = "المبيعات";
-            tileItemElement1.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
-            tileItemElement1.TextLocation = new System.Drawing.Point(4, 11);
-            this.tileItem1.Elements.Add(tileItemElement1);
+            tileItemElement7.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI", 9F);
+            tileItemElement7.Appearance.Hovered.Options.UseFont = true;
+            tileItemElement7.Appearance.Hovered.Options.UseTextOptions = true;
+            tileItemElement7.Appearance.Hovered.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement7.Appearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement7.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
+            tileItemElement7.Appearance.Normal.Options.UseFont = true;
+            tileItemElement7.Appearance.Normal.Options.UseTextOptions = true;
+            tileItemElement7.Appearance.Normal.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement7.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement7.Appearance.Selected.Font = new System.Drawing.Font("Segoe UI", 9F);
+            tileItemElement7.Appearance.Selected.Options.UseFont = true;
+            tileItemElement7.Appearance.Selected.Options.UseTextOptions = true;
+            tileItemElement7.Appearance.Selected.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement7.Appearance.Selected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement7.MaxWidth = 200;
+            tileItemElement7.Text = "المبيعات";
+            tileItemElement7.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopLeft;
+            tileItemElement7.TextLocation = new System.Drawing.Point(4, 11);
+            this.tileItem1.Elements.Add(tileItemElement7);
             this.tileItem1.Id = 3;
             this.tileItem1.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem1.Name = "tileItem1";
-            toolTipItem1.Text = "5000 EGP";
-            superToolTip1.Items.Add(toolTipItem1);
-            this.tileItem1.SuperTip = superToolTip1;
+            toolTipItem5.Text = "5000 EGP";
+            superToolTip5.Items.Add(toolTipItem5);
+            this.tileItem1.SuperTip = superToolTip5;
             // 
             // tileItem2
             // 
-            this.tileItem2.AppearanceItem.Normal.BackColor = System.Drawing.Color.Silver;
+            this.tileItem2.AppearanceItem.Normal.BackColor = System.Drawing.Color.Transparent;
             this.tileItem2.AppearanceItem.Normal.BorderColor = System.Drawing.SystemColors.ActiveBorder;
-            this.tileItem2.AppearanceItem.Normal.ForeColor = System.Drawing.Color.Gray;
+            this.tileItem2.AppearanceItem.Normal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(77)))), ((int)(((byte)(134)))));
             this.tileItem2.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tileItem2.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItem2.AppearanceItem.Normal.Options.UseForeColor = true;
             this.tileItem2.BorderVisibility = DevExpress.XtraEditors.TileItemBorderVisibility.Always;
-            tileItemElement2.Text = "المشتريات";
-            this.tileItem2.Elements.Add(tileItemElement2);
+            tileItemElement8.Text = "المشتريات";
+            this.tileItem2.Elements.Add(tileItemElement8);
             this.tileItem2.Id = 4;
             this.tileItem2.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem2.Name = "tileItem2";
             // 
             // tileItem3
             // 
-            this.tileItem3.AppearanceItem.Normal.BackColor = System.Drawing.Color.Silver;
+            this.tileItem3.AppearanceItem.Normal.BackColor = System.Drawing.Color.Transparent;
             this.tileItem3.AppearanceItem.Normal.BorderColor = System.Drawing.SystemColors.ActiveBorder;
-            this.tileItem3.AppearanceItem.Normal.ForeColor = System.Drawing.Color.Gray;
+            this.tileItem3.AppearanceItem.Normal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(77)))), ((int)(((byte)(134)))));
             this.tileItem3.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tileItem3.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItem3.AppearanceItem.Normal.Options.UseForeColor = true;
             this.tileItem3.BorderVisibility = DevExpress.XtraEditors.TileItemBorderVisibility.Always;
-            tileItemElement3.Text = "المصروفات";
-            this.tileItem3.Elements.Add(tileItemElement3);
+            tileItemElement9.Text = "المصروفات";
+            this.tileItem3.Elements.Add(tileItemElement9);
             this.tileItem3.Id = 5;
             this.tileItem3.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem3.Name = "tileItem3";
@@ -287,50 +288,50 @@
             // 
             // tileItem4
             // 
-            this.tileItem4.AppearanceItem.Normal.BackColor = System.Drawing.Color.Silver;
+            this.tileItem4.AppearanceItem.Normal.BackColor = System.Drawing.Color.Transparent;
             this.tileItem4.AppearanceItem.Normal.BorderColor = System.Drawing.SystemColors.ActiveBorder;
-            this.tileItem4.AppearanceItem.Normal.ForeColor = System.Drawing.Color.Gray;
+            this.tileItem4.AppearanceItem.Normal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(77)))), ((int)(((byte)(134)))));
             this.tileItem4.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tileItem4.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItem4.AppearanceItem.Normal.Options.UseForeColor = true;
             this.tileItem4.BorderVisibility = DevExpress.XtraEditors.TileItemBorderVisibility.Always;
             this.tileItem4.ContentAnimation = DevExpress.XtraEditors.TileItemContentAnimationType.Fade;
-            tileItemElement4.Text = "الشيكات";
-            this.tileItem4.Elements.Add(tileItemElement4);
+            tileItemElement10.Text = "الشيكات";
+            this.tileItem4.Elements.Add(tileItemElement10);
             this.tileItem4.Id = 6;
             this.tileItem4.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem4.Name = "tileItem4";
-            toolTipItem2.Text = "5000 EGP";
-            superToolTip2.Items.Add(toolTipItem2);
-            this.tileItem4.SuperTip = superToolTip2;
+            toolTipItem6.Text = "5000 EGP";
+            superToolTip6.Items.Add(toolTipItem6);
+            this.tileItem4.SuperTip = superToolTip6;
             this.tileItem4.TextShowMode = DevExpress.XtraEditors.TileItemContentShowMode.Always;
             // 
             // tileItem5
             // 
-            this.tileItem5.AppearanceItem.Normal.BackColor = System.Drawing.Color.Silver;
+            this.tileItem5.AppearanceItem.Normal.BackColor = System.Drawing.Color.Transparent;
             this.tileItem5.AppearanceItem.Normal.BorderColor = System.Drawing.SystemColors.ActiveBorder;
-            this.tileItem5.AppearanceItem.Normal.ForeColor = System.Drawing.Color.Gray;
+            this.tileItem5.AppearanceItem.Normal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(77)))), ((int)(((byte)(134)))));
             this.tileItem5.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tileItem5.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItem5.AppearanceItem.Normal.Options.UseForeColor = true;
             this.tileItem5.BorderVisibility = DevExpress.XtraEditors.TileItemBorderVisibility.Always;
-            tileItemElement5.Text = "الأقساط";
-            this.tileItem5.Elements.Add(tileItemElement5);
+            tileItemElement11.Text = "الأقساط";
+            this.tileItem5.Elements.Add(tileItemElement11);
             this.tileItem5.Id = 7;
             this.tileItem5.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem5.Name = "tileItem5";
             // 
             // tileItem6
             // 
-            this.tileItem6.AppearanceItem.Normal.BackColor = System.Drawing.Color.Silver;
+            this.tileItem6.AppearanceItem.Normal.BackColor = System.Drawing.Color.Transparent;
             this.tileItem6.AppearanceItem.Normal.BorderColor = System.Drawing.SystemColors.ActiveBorder;
-            this.tileItem6.AppearanceItem.Normal.ForeColor = System.Drawing.Color.Gray;
+            this.tileItem6.AppearanceItem.Normal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(77)))), ((int)(((byte)(134)))));
             this.tileItem6.AppearanceItem.Normal.Options.UseBackColor = true;
             this.tileItem6.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItem6.AppearanceItem.Normal.Options.UseForeColor = true;
             this.tileItem6.BorderVisibility = DevExpress.XtraEditors.TileItemBorderVisibility.Always;
-            tileItemElement6.Text = "الأصناف المنتهية";
-            this.tileItem6.Elements.Add(tileItemElement6);
+            tileItemElement12.Text = "الأصناف المنتهية";
+            this.tileItem6.Elements.Add(tileItemElement12);
             this.tileItem6.Id = 8;
             this.tileItem6.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem6.Name = "tileItem6";
@@ -622,6 +623,8 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem38),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem39),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem40)});
+            this.barSubItem2.MenuAppearance.AppearanceMenu.Normal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(77)))), ((int)(((byte)(134)))));
+            this.barSubItem2.MenuAppearance.AppearanceMenu.Normal.Options.UseBackColor = true;
             this.barSubItem2.Name = "barSubItem2";
             // 
             // barButtonItem37
@@ -659,6 +662,7 @@
             this.barButtonItem29.Caption = "بيانات البنوك";
             this.barButtonItem29.Id = 12;
             this.barButtonItem29.Name = "barButtonItem29";
+            this.barButtonItem29.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem29_ItemClick);
             // 
             // barButtonItem30
             // 
@@ -869,15 +873,15 @@
             this.barButtonItem20,
             this.barButtonItem41,
             this.barButtonItem42,
-            this.barButtonItem43});
+            this.barButtonItem43,
+            this.barButtonItem46});
             this.barManager4.MainMenu = this.bar2;
-            this.barManager4.MaxItemId = 18;
+            this.barManager4.MaxItemId = 19;
             // 
             // bar2
             // 
             this.bar2.BarAppearance.Hovered.Font = new System.Drawing.Font("beIN Normal ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bar2.BarAppearance.Hovered.Options.UseFont = true;
-            this.bar2.BarAppearance.Normal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bar2.BarAppearance.Normal.Font = new System.Drawing.Font("beIN Normal ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bar2.BarAppearance.Normal.Options.UseFont = true;
             this.bar2.BarAppearance.Pressed.Font = new System.Drawing.Font("beIN Normal ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -922,10 +926,10 @@
             this.barButtonItem7.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem7.Name = "barButtonItem7";
             this.barButtonItem7.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            toolTipItem3.Text = "يمكنك هذا القسم من اضافة الحسابات الاساسية وتعريف بيانات الشركة واضافة الاصناف وا" +
+            toolTipItem7.Text = "يمكنك هذا القسم من اضافة الحسابات الاساسية وتعريف بيانات الشركة واضافة الاصناف وا" +
     "لعملاء والموردين والمصاريف";
-            superToolTip3.Items.Add(toolTipItem3);
-            this.barButtonItem7.SuperTip = superToolTip3;
+            superToolTip7.Items.Add(toolTipItem7);
+            this.barButtonItem7.SuperTip = superToolTip7;
             this.barButtonItem7.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem7_ItemClick);
             // 
             // barButtonItem9
@@ -996,7 +1000,8 @@
             this.pop_about.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem41),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem42),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem43)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem43),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem46)});
             this.pop_about.Manager = this.barManager4;
             this.pop_about.Name = "pop_about";
             // 
@@ -1025,6 +1030,15 @@
             this.barButtonItem43.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem43.ImageOptions.Image")));
             this.barButtonItem43.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem43.ImageOptions.LargeImage")));
             this.barButtonItem43.Name = "barButtonItem43";
+            // 
+            // barButtonItem46
+            // 
+            this.barButtonItem46.Caption = "تسجيل الخروج";
+            this.barButtonItem46.Id = 18;
+            this.barButtonItem46.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem46.ImageOptions.Image")));
+            this.barButtonItem46.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem46.ImageOptions.LargeImage")));
+            this.barButtonItem46.Name = "barButtonItem46";
+            this.barButtonItem46.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem46_ItemClick);
             // 
             // barButtonItem14
             // 
@@ -1080,9 +1094,9 @@
             this.barButtonItem13.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem13.ImageOptions.LargeImage")));
             this.barButtonItem13.Name = "barButtonItem13";
             this.barButtonItem13.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            toolTipItem4.Text = "asd asdadd asd ";
-            superToolTip4.Items.Add(toolTipItem4);
-            this.barButtonItem13.SuperTip = superToolTip4;
+            toolTipItem8.Text = "asd asdadd asd ";
+            superToolTip8.Items.Add(toolTipItem8);
+            this.barButtonItem13.SuperTip = superToolTip8;
             this.barButtonItem13.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem13_ItemClick);
             // 
             // popupMenu13
@@ -1467,5 +1481,6 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem43;
         private DevExpress.XtraBars.BarButtonItem barButtonItem44;
         private DevExpress.XtraBars.BarButtonItem barButtonItem45;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem46;
     }
 }
