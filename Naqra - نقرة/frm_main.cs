@@ -50,11 +50,24 @@ namespace Naqra___نقرة
             {
                 UserLookAndFeel.Default.SetSkinStyle("Office 2019 Black");
                 isLight= false;
+                tileItem1.AppearanceItem.Normal.BackColor = Color.FromArgb(40, 40, 40);
+                tileItem2.AppearanceItem.Normal.BackColor = Color.FromArgb(40, 40, 40);
+                tileItem3.AppearanceItem.Normal.BackColor = Color.FromArgb(40, 40, 40);
+                tileItem4.AppearanceItem.Normal.BackColor = Color.FromArgb(40, 40, 40);
+                tileItem5.AppearanceItem.Normal.BackColor = Color.FromArgb(40, 40, 40);
+                tileItem6.AppearanceItem.Normal.BackColor = Color.FromArgb(40, 40, 40);
+
             }
             else
             {
-                UserLookAndFeel.Default.SetSkinStyle("Office 2019 Colorful");
-                isLight= true;
+                UserLookAndFeel.Default.SetSkinStyle("The Bezier");
+                tileItem1.AppearanceItem.Normal.BackColor = Color.WhiteSmoke;
+                tileItem2.AppearanceItem.Normal.BackColor = Color.WhiteSmoke;
+                tileItem3.AppearanceItem.Normal.BackColor = Color.WhiteSmoke;
+                tileItem4.AppearanceItem.Normal.BackColor = Color.WhiteSmoke;
+                tileItem5.AppearanceItem.Normal.BackColor = Color.WhiteSmoke;
+                tileItem6.AppearanceItem.Normal.BackColor = Color.WhiteSmoke;
+                isLight = true;
 
             }
             
@@ -148,6 +161,12 @@ namespace Naqra___نقرة
             frm_login frm_login = new frm_login();
             frm_login.Show(this);
 
+        }
+
+        private void barButtonItem32_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_employee frm_Employee =  new frm_employee();
+            frm_Employee.Show(this);
         }
     }
 }

@@ -53,17 +53,6 @@
             this.tabPane1 = new DevExpress.XtraBars.Navigation.TabPane();
             this.tabNavigationPage1 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.stackPanel9 = new DevExpress.Utils.Layout.StackPanel();
-            this.tabNavigationPage2 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
-            this.panel_title = new DevExpress.XtraEditors.PanelControl();
-            this.txt_title = new System.Windows.Forms.Label();
-            this.tabNavigationPage3 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
-            this.stackPanel1 = new DevExpress.Utils.Layout.StackPanel();
-            this.stackPanel2 = new DevExpress.Utils.Layout.StackPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.stackPanel3 = new DevExpress.Utils.Layout.StackPanel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.stackPanel4 = new DevExpress.Utils.Layout.StackPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
@@ -79,23 +68,23 @@
             this.stackPanel8 = new DevExpress.Utils.Layout.StackPanel();
             this.label7 = new System.Windows.Forms.Label();
             this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.tabNavigationPage3 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.stackPanel1 = new DevExpress.Utils.Layout.StackPanel();
+            this.stackPanel2 = new DevExpress.Utils.Layout.StackPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.stackPanel3 = new DevExpress.Utils.Layout.StackPanel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.tabNavigationPage2 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
+            this.panel_title = new DevExpress.XtraEditors.PanelControl();
+            this.txt_title = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabPane1)).BeginInit();
             this.tabPane1.SuspendLayout();
             this.tabNavigationPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel9)).BeginInit();
             this.stackPanel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panel_title)).BeginInit();
-            this.panel_title.SuspendLayout();
-            this.tabNavigationPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel1)).BeginInit();
-            this.stackPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel2)).BeginInit();
-            this.stackPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel3)).BeginInit();
-            this.stackPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel4)).BeginInit();
             this.stackPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
@@ -111,6 +100,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel8)).BeginInit();
             this.stackPanel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
+            this.tabNavigationPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.stackPanel1)).BeginInit();
+            this.stackPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.stackPanel2)).BeginInit();
+            this.stackPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stackPanel3)).BeginInit();
+            this.stackPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panel_title)).BeginInit();
+            this.panel_title.SuspendLayout();
             this.SuspendLayout();
             // 
             // barManager1
@@ -386,134 +386,6 @@
             this.stackPanel9.TabIndex = 25;
             this.stackPanel9.UseSkinIndents = true;
             // 
-            // tabNavigationPage2
-            // 
-            this.tabNavigationPage2.Caption = "المستندات المرتبطة";
-            this.tabNavigationPage2.Name = "tabNavigationPage2";
-            this.tabNavigationPage2.Size = new System.Drawing.Size(1114, 475);
-            // 
-            // panel_title
-            // 
-            this.panel_title.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.panel_title.Appearance.Options.UseBackColor = true;
-            this.panel_title.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panel_title.Controls.Add(this.txt_title);
-            this.panel_title.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_title.Location = new System.Drawing.Point(0, 47);
-            this.panel_title.Margin = new System.Windows.Forms.Padding(0);
-            this.panel_title.Name = "panel_title";
-            this.panel_title.Size = new System.Drawing.Size(1114, 43);
-            this.panel_title.TabIndex = 26;
-            // 
-            // txt_title
-            // 
-            this.txt_title.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(77)))), ((int)(((byte)(134)))));
-            this.txt_title.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txt_title.Font = new System.Drawing.Font("beIN Normal ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_title.ForeColor = System.Drawing.Color.White;
-            this.txt_title.Location = new System.Drawing.Point(0, 0);
-            this.txt_title.Margin = new System.Windows.Forms.Padding(0);
-            this.txt_title.Name = "txt_title";
-            this.txt_title.Size = new System.Drawing.Size(1114, 43);
-            this.txt_title.TabIndex = 0;
-            this.txt_title.Text = "بيانات البنك";
-            this.txt_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tabNavigationPage3
-            // 
-            this.tabNavigationPage3.Caption = "الحسابات";
-            this.tabNavigationPage3.Controls.Add(this.stackPanel1);
-            this.tabNavigationPage3.Name = "tabNavigationPage3";
-            this.tabNavigationPage3.Size = new System.Drawing.Size(1114, 475);
-            // 
-            // stackPanel1
-            // 
-            this.stackPanel1.Controls.Add(this.stackPanel2);
-            this.stackPanel1.Controls.Add(this.stackPanel3);
-            this.stackPanel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.stackPanel1.LayoutDirection = DevExpress.Utils.Layout.StackPanelLayoutDirection.TopDown;
-            this.stackPanel1.Location = new System.Drawing.Point(738, 0);
-            this.stackPanel1.Name = "stackPanel1";
-            this.stackPanel1.Size = new System.Drawing.Size(376, 475);
-            this.stackPanel1.TabIndex = 0;
-            this.stackPanel1.UseSkinIndents = true;
-            // 
-            // stackPanel2
-            // 
-            this.stackPanel2.Controls.Add(this.label1);
-            this.stackPanel2.Controls.Add(this.textEdit1);
-            this.stackPanel2.Location = new System.Drawing.Point(8, 12);
-            this.stackPanel2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.stackPanel2.Name = "stackPanel2";
-            this.stackPanel2.Size = new System.Drawing.Size(361, 52);
-            this.stackPanel2.TabIndex = 26;
-            this.stackPanel2.UseSkinIndents = true;
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(241, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 33);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "كود الحساب";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // textEdit1
-            // 
-            this.textEdit1.EditValue = "";
-            this.textEdit1.Enabled = false;
-            this.textEdit1.Location = new System.Drawing.Point(13, 7);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit1.Properties.Appearance.Options.UseFont = true;
-            this.textEdit1.Properties.Appearance.Options.UseTextOptions = true;
-            this.textEdit1.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.textEdit1.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.textEdit1.Properties.AutoHeight = false;
-            this.textEdit1.Properties.NullText = "1";
-            this.textEdit1.Properties.Padding = new System.Windows.Forms.Padding(5);
-            this.textEdit1.Size = new System.Drawing.Size(222, 38);
-            this.textEdit1.TabIndex = 2;
-            // 
-            // stackPanel3
-            // 
-            this.stackPanel3.Controls.Add(this.label4);
-            this.stackPanel3.Controls.Add(this.comboBoxEdit1);
-            this.stackPanel3.Location = new System.Drawing.Point(9, 68);
-            this.stackPanel3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.stackPanel3.Name = "stackPanel3";
-            this.stackPanel3.Size = new System.Drawing.Size(358, 52);
-            this.stackPanel3.TabIndex = 27;
-            this.stackPanel3.UseSkinIndents = true;
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(238, 9);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 33);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "الحساب الأب";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // comboBoxEdit1
-            // 
-            this.comboBoxEdit1.EditValue = "";
-            this.comboBoxEdit1.Location = new System.Drawing.Point(11, 10);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Properties.NullText = "1";
-            this.comboBoxEdit1.Properties.Padding = new System.Windows.Forms.Padding(5);
-            this.comboBoxEdit1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.comboBoxEdit1.Size = new System.Drawing.Size(221, 32);
-            this.comboBoxEdit1.TabIndex = 6;
-            // 
             // stackPanel4
             // 
             this.stackPanel4.Controls.Add(this.label2);
@@ -708,6 +580,134 @@
             this.comboBoxEdit2.Size = new System.Drawing.Size(222, 38);
             this.comboBoxEdit2.TabIndex = 6;
             // 
+            // tabNavigationPage3
+            // 
+            this.tabNavigationPage3.Caption = "الحسابات";
+            this.tabNavigationPage3.Controls.Add(this.stackPanel1);
+            this.tabNavigationPage3.Name = "tabNavigationPage3";
+            this.tabNavigationPage3.Size = new System.Drawing.Size(1114, 475);
+            // 
+            // stackPanel1
+            // 
+            this.stackPanel1.Controls.Add(this.stackPanel2);
+            this.stackPanel1.Controls.Add(this.stackPanel3);
+            this.stackPanel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.stackPanel1.LayoutDirection = DevExpress.Utils.Layout.StackPanelLayoutDirection.TopDown;
+            this.stackPanel1.Location = new System.Drawing.Point(738, 0);
+            this.stackPanel1.Name = "stackPanel1";
+            this.stackPanel1.Size = new System.Drawing.Size(376, 475);
+            this.stackPanel1.TabIndex = 0;
+            this.stackPanel1.UseSkinIndents = true;
+            // 
+            // stackPanel2
+            // 
+            this.stackPanel2.Controls.Add(this.label1);
+            this.stackPanel2.Controls.Add(this.textEdit1);
+            this.stackPanel2.Location = new System.Drawing.Point(8, 12);
+            this.stackPanel2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.stackPanel2.Name = "stackPanel2";
+            this.stackPanel2.Size = new System.Drawing.Size(361, 52);
+            this.stackPanel2.TabIndex = 26;
+            this.stackPanel2.UseSkinIndents = true;
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(15, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(105, 33);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "كود الحساب";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textEdit1
+            // 
+            this.textEdit1.EditValue = "";
+            this.textEdit1.Enabled = false;
+            this.textEdit1.Location = new System.Drawing.Point(126, 7);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit1.Properties.Appearance.Options.UseFont = true;
+            this.textEdit1.Properties.Appearance.Options.UseTextOptions = true;
+            this.textEdit1.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.textEdit1.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.textEdit1.Properties.AutoHeight = false;
+            this.textEdit1.Properties.NullText = "1";
+            this.textEdit1.Properties.Padding = new System.Windows.Forms.Padding(5);
+            this.textEdit1.Size = new System.Drawing.Size(222, 38);
+            this.textEdit1.TabIndex = 2;
+            // 
+            // stackPanel3
+            // 
+            this.stackPanel3.Controls.Add(this.label4);
+            this.stackPanel3.Controls.Add(this.comboBoxEdit1);
+            this.stackPanel3.Location = new System.Drawing.Point(9, 68);
+            this.stackPanel3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.stackPanel3.Name = "stackPanel3";
+            this.stackPanel3.Size = new System.Drawing.Size(358, 52);
+            this.stackPanel3.TabIndex = 27;
+            this.stackPanel3.UseSkinIndents = true;
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(238, 9);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(105, 33);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "الحساب الأب";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // comboBoxEdit1
+            // 
+            this.comboBoxEdit1.EditValue = "";
+            this.comboBoxEdit1.Location = new System.Drawing.Point(11, 10);
+            this.comboBoxEdit1.Name = "comboBoxEdit1";
+            this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit1.Properties.NullText = "1";
+            this.comboBoxEdit1.Properties.Padding = new System.Windows.Forms.Padding(5);
+            this.comboBoxEdit1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            this.comboBoxEdit1.Size = new System.Drawing.Size(221, 32);
+            this.comboBoxEdit1.TabIndex = 6;
+            // 
+            // tabNavigationPage2
+            // 
+            this.tabNavigationPage2.Caption = "المستندات المرتبطة";
+            this.tabNavigationPage2.Name = "tabNavigationPage2";
+            this.tabNavigationPage2.Size = new System.Drawing.Size(1114, 475);
+            // 
+            // panel_title
+            // 
+            this.panel_title.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.panel_title.Appearance.Options.UseBackColor = true;
+            this.panel_title.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.panel_title.Controls.Add(this.txt_title);
+            this.panel_title.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel_title.Location = new System.Drawing.Point(0, 47);
+            this.panel_title.Margin = new System.Windows.Forms.Padding(0);
+            this.panel_title.Name = "panel_title";
+            this.panel_title.Size = new System.Drawing.Size(1114, 43);
+            this.panel_title.TabIndex = 26;
+            // 
+            // txt_title
+            // 
+            this.txt_title.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(77)))), ((int)(((byte)(134)))));
+            this.txt_title.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_title.Font = new System.Drawing.Font("beIN Normal ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_title.ForeColor = System.Drawing.Color.White;
+            this.txt_title.Location = new System.Drawing.Point(0, 0);
+            this.txt_title.Margin = new System.Windows.Forms.Padding(0);
+            this.txt_title.Name = "txt_title";
+            this.txt_title.Size = new System.Drawing.Size(1114, 43);
+            this.txt_title.TabIndex = 0;
+            this.txt_title.Text = "بيانات البنك";
+            this.txt_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // frm_banks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 31F);
@@ -733,17 +733,6 @@
             this.tabNavigationPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel9)).EndInit();
             this.stackPanel9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.panel_title)).EndInit();
-            this.panel_title.ResumeLayout(false);
-            this.tabNavigationPage3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel1)).EndInit();
-            this.stackPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel2)).EndInit();
-            this.stackPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel3)).EndInit();
-            this.stackPanel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel4)).EndInit();
             this.stackPanel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
@@ -759,6 +748,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel8)).EndInit();
             this.stackPanel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
+            this.tabNavigationPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.stackPanel1)).EndInit();
+            this.stackPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.stackPanel2)).EndInit();
+            this.stackPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stackPanel3)).EndInit();
+            this.stackPanel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panel_title)).EndInit();
+            this.panel_title.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
