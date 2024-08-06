@@ -748,12 +748,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8054579DDD784C3282A15DB66769FC4E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_8B772A8CAD36537492B6BE201732648E"
         "OwnerKey" = "8:_63A5180AAEC858D619B6B17AE994C9B3"
         "MsmSig" = "8:_UNDEFINED"
@@ -863,12 +857,6 @@
         "Entry"
         {
         "MsmKey" = "8:_9FB1A7E36FF6A88723D17AA1C65926B0"
-        "OwnerKey" = "8:_D8921E794D4A4ABBA10CB81940C80C89"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_AF0390EF09AFEBDBC410CBFB7FE74B70"
         "OwnerKey" = "8:_D8921E794D4A4ABBA10CB81940C80C89"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1222,6 +1210,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_F1E45BC9AB3CD064D4102DCC97A65041"
+        "OwnerKey" = "8:_D8921E794D4A4ABBA10CB81940C80C89"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_F3B6B9D57B25BA48E5875323871EAA13"
         "OwnerKey" = "8:_D8921E794D4A4ABBA10CB81940C80C89"
         "MsmSig" = "8:_UNDEFINED"
@@ -1265,7 +1259,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AF0390EF09AFEBDBC410CBFB7FE74B70"
+        "OwnerKey" = "8:_F1E45BC9AB3CD064D4102DCC97A65041"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1474,7 +1468,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:..\\..\\..\\..\\..\\..\\Program Files\\Ampps\\www\\update\\naqraSetup.msi"
+        "OutputFilename" = "8:C:\\MAMP\\htdocs\\update\\naqraSetup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -2088,26 +2082,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8054579DDD784C3282A15DB66769FC4E"
-            {
-            "SourcePath" = "8:..\\Naqra - نقرة\\bin\\Debug\\bat.bat"
-            "TargetName" = "8:bat.bat"
-            "Tag" = "8:"
-            "Folder" = "8:_E9ECACE88FDF4EE3AC454CF74CD0F653"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8B772A8CAD36537492B6BE201732648E"
             {
             "AssemblyRegister" = "3:1"
@@ -2277,37 +2251,6 @@
                     }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_E9ECACE88FDF4EE3AC454CF74CD0F653"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AF0390EF09AFEBDBC410CBFB7FE74B70"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_AF0390EF09AFEBDBC410CBFB7FE74B70"
-                    {
-                    "Name" = "8:Guna.UI2.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Guna.UI2.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E9ECACE88FDF4EE3AC454CF74CD0F653"
@@ -2542,6 +2485,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F1E45BC9AB3CD064D4102DCC97A65041"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_F1E45BC9AB3CD064D4102DCC97A65041"
+                    {
+                    "Name" = "8:Guna.UI2.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Guna.UI2.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_E9ECACE88FDF4EE3AC454CF74CD0F653"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F3B6B9D57B25BA48E5875323871EAA13"
             {
             "AssemblyRegister" = "3:1"
@@ -2691,9 +2665,9 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:naqra erp"
-        "ProductCode" = "8:{81CBCD20-B6BA-4CE2-AA4D-F080AC99E733}"
-        "PackageCode" = "8:{B08E0EFE-68CE-4251-8327-AA233706AC21}"
-        "UpgradeCode" = "8:{6A3F0833-25FC-49D9-8B56-019D07B462F9}"
+        "ProductCode" = "8:{81CBBD20-B6BA-4CE2-AA4D-F080AC99E733}"
+        "PackageCode" = "8:{1098279B-A84C-4DFE-ABBE-BDDFA0A890F0}"
+        "UpgradeCode" = "8:{6A3F0843-25FC-49D9-8B56-019D07B462F9}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"

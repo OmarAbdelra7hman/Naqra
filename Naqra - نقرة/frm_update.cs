@@ -42,20 +42,21 @@ namespace Naqra___نقرة
         {
 
 
-            Process myProcess = new Process();
-            myProcess.StartInfo.FileName = "msiexec";
-            myProcess.StartInfo.WorkingDirectory = @"C:\Users\Public\Downloads\";
-            myProcess.StartInfo.Arguments = "  /i naqraSetup.msi ADDLOCAL=test";
-            myProcess.StartInfo.Verb = "runas";
-            myProcess.Start();
-            myProcess.WaitForExit();
-            this.Close();
+             Process myProcess = new Process();
+        myProcess.StartInfo.FileName = @"C:\Users\Public\Downloads\naqraSetup.exe"; // Full path to your executable
+        myProcess.StartInfo.Arguments = ""; // Arguments for your executable
+        myProcess.StartInfo.WorkingDirectory = @"C:\Users\Public\Downloads\"; // Working directory
+        myProcess.StartInfo.Verb = "runas"; // For elevation
+        myProcess.StartInfo.UseShellExecute = true; // Required for 'runas'
+        
+        myProcess.Start();
+        myProcess.WaitForExit();
         }
         public  bool checkUpdate()
         {
             
              label_new.Hide();
-            String urlVersion = "http://naqra.rf.gd/version.txt";
+            String urlVersion = "http://naqra.org/update/version.txt";
             var newVersion = new WebClient().DownloadString(urlVersion);
             var currentVersion = Application.ProductVersion.ToString();
 
@@ -104,7 +105,7 @@ namespace Naqra___نقرة
 
             try
             {
-                webClient.DownloadFileAsync(new Uri("http://naqra.rf.gd/naqraSetup.msi"), "C:\\Users\\Public\\Downloads\\naqraSetup" + "" + ".msi");
+                webClient.DownloadFileAsync(new Uri("http://naqra.org/update/naqraSetup.exe"), "C:\\Users\\Public\\Downloads\\naqraSetup" + "" + ".exe");
                
 
                 frm_Donwload.ShowDialog();

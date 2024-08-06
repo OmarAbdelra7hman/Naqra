@@ -168,5 +168,10 @@ namespace Naqra___نقرة
             frm_employee frm_Employee =  new frm_employee();
             frm_Employee.Show(this);
         }
+
+        private void barButtonItem74_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
     }
 }

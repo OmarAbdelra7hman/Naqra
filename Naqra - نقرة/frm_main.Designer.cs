@@ -39,6 +39,7 @@
             DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
             DevExpress.XtraEditors.TileItemElement tileItemElement5 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement6 = new DevExpress.XtraEditors.TileItemElement();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_main));
             DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
             DevExpress.Utils.ToolTipItem toolTipItem3 = new DevExpress.Utils.ToolTipItem();
             DevExpress.Utils.SuperToolTip superToolTip4 = new DevExpress.Utils.SuperToolTip();
@@ -47,7 +48,6 @@
             DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
             DevExpress.XtraCharts.StepLineSeriesView stepLineSeriesView1 = new DevExpress.XtraCharts.StepLineSeriesView();
             DevExpress.XtraCharts.ChartTitle chartTitle1 = new DevExpress.XtraCharts.ChartTitle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_main));
             this.tileControl1 = new DevExpress.XtraEditors.TileControl();
             this.tileGroup1 = new DevExpress.XtraEditors.TileGroup();
             this.tileItem1 = new DevExpress.XtraEditors.TileItem();
@@ -62,6 +62,7 @@
             this.barStaticItem1 = new DevExpress.XtraBars.BarStaticItem();
             this.barStaticItem2 = new DevExpress.XtraBars.BarStaticItem();
             this.barStaticItem3 = new DevExpress.XtraBars.BarStaticItem();
+            this.barStaticItem4 = new DevExpress.XtraBars.BarStaticItem();
             this.barToggleSwitchItem1 = new DevExpress.XtraBars.BarToggleSwitchItem();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
@@ -100,17 +101,44 @@
             this.barButtonItem45 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.pop_sales_dep = new DevExpress.XtraBars.PopupMenu(this.components);
-            this.barButtonItem25 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem35 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem48 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem49 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem50 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem51 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem52 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem53 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
-            this.pop_purchases_dep = new DevExpress.XtraBars.PopupMenu(this.components);
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.pop_acc_dep = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.barButtonItem58 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem59 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem60 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem61 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem62 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem63 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem64 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             this.pop_stores_dep = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.barButtonItem71 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem72 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem65 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem66 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem67 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem68 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem69 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem70 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem73 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem27 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem25 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem35 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem36 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem47 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem54 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem55 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem56 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem57 = new DevExpress.XtraBars.BarButtonItem();
+            this.pop_purchases_dep = new DevExpress.XtraBars.PopupMenu(this.components);
             this.barManager3 = new DevExpress.XtraBars.BarManager(this.components);
             this.barDockControl5 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl6 = new DevExpress.XtraBars.BarDockControl();
@@ -120,17 +148,17 @@
             this.bar2 = new DevExpress.XtraBars.Bar();
             this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
-            this.popupMenu7 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
-            this.popupMenu8 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
-            this.popupMenu9 = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.barButtonItem74 = new DevExpress.XtraBars.BarButtonItem();
+            this.pop_money_dep = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.barButtonItem75 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem76 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem77 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem78 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem79 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem80 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
-            this.pop_about = new DevExpress.XtraBars.PopupMenu(this.components);
-            this.barButtonItem41 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem42 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem43 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem46 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
             this.popupMenu11 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
@@ -139,6 +167,11 @@
             this.barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
             this.popupMenu13 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.barButtonItem15 = new DevExpress.XtraBars.BarButtonItem();
+            this.pop_about = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.barButtonItem41 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem42 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem43 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem46 = new DevExpress.XtraBars.BarButtonItem();
             this.barDockControl9 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl10 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl11 = new DevExpress.XtraBars.BarDockControl();
@@ -148,8 +181,11 @@
             this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
             this.barButtonItem19 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem20 = new DevExpress.XtraBars.BarButtonItem();
+            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.popupMenu7 = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.popupMenu8 = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.popupMenu9 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.popupMenu12 = new DevExpress.XtraBars.PopupMenu(this.components);
-            this.popupMenu6 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.galleryDropDown1 = new DevExpress.XtraBars.Ribbon.GalleryDropDown(this.components);
             this.searchControl1 = new DevExpress.XtraEditors.SearchControl();
             this.label2 = new System.Windows.Forms.Label();
@@ -162,54 +198,25 @@
             this.bar5 = new DevExpress.XtraBars.Bar();
             this.stackPanel1 = new DevExpress.Utils.Layout.StackPanel();
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
-            this.barButtonItem47 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem48 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem49 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem50 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem51 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem52 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem53 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem54 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem55 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem56 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem57 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem58 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem59 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem60 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem61 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem62 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem63 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem64 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem65 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem66 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem67 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem68 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem69 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem70 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem71 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem72 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem73 = new DevExpress.XtraBars.BarButtonItem();
-            this.barStaticItem4 = new DevExpress.XtraBars.BarStaticItem();
-            this.barButtonItem74 = new DevExpress.XtraBars.BarButtonItem();
-            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pop_main)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pop_sales_dep)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pop_purchases_dep)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pop_acc_dep)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pop_stores_dep)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pop_purchases_dep)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.popupMenu7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.popupMenu8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.popupMenu9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pop_about)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pop_money_dep)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pop_about)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.popupMenu6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.galleryDropDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.searchControl1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablePanel1)).BeginInit();
@@ -223,7 +230,6 @@
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(stepLineSeriesView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             this.SuspendLayout();
             // 
             // tileControl1
@@ -448,6 +454,19 @@
             this.barStaticItem3.Size = new System.Drawing.Size(300, 0);
             this.barStaticItem3.TextAlignment = System.Drawing.StringAlignment.Center;
             this.barStaticItem3.Width = 300;
+            // 
+            // barStaticItem4
+            // 
+            this.barStaticItem4.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
+            this.barStaticItem4.Caption = "نسخة مفعلة رسمية";
+            this.barStaticItem4.ContentHorizontalAlignment = DevExpress.XtraBars.BarItemContentAlignment.Center;
+            this.barStaticItem4.Id = 21;
+            this.barStaticItem4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barStaticItem4.ImageOptions.Image")));
+            this.barStaticItem4.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barStaticItem4.ImageOptions.LargeImage")));
+            this.barStaticItem4.Name = "barStaticItem4";
+            this.barStaticItem4.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.barStaticItem4.Size = new System.Drawing.Size(200, 20);
+            this.barStaticItem4.Width = 200;
             // 
             // barToggleSwitchItem1
             // 
@@ -803,17 +822,41 @@
             this.pop_sales_dep.Manager = this.barManager2;
             this.pop_sales_dep.Name = "pop_sales_dep";
             // 
-            // barButtonItem25
+            // barButtonItem48
             // 
-            this.barButtonItem25.Caption = "الأصناف";
-            this.barButtonItem25.Id = 24;
-            this.barButtonItem25.Name = "barButtonItem25";
+            this.barButtonItem48.Caption = "فاتورة مبيعات";
+            this.barButtonItem48.Id = 35;
+            this.barButtonItem48.Name = "barButtonItem48";
             // 
-            // barButtonItem35
+            // barButtonItem49
             // 
-            this.barButtonItem35.Caption = "مجموعات الاصناف";
-            this.barButtonItem35.Id = 25;
-            this.barButtonItem35.Name = "barButtonItem35";
+            this.barButtonItem49.Caption = "فاتورة مردود مبيعات";
+            this.barButtonItem49.Id = 36;
+            this.barButtonItem49.Name = "barButtonItem49";
+            // 
+            // barButtonItem50
+            // 
+            this.barButtonItem50.Caption = "امر بيع";
+            this.barButtonItem50.Id = 37;
+            this.barButtonItem50.Name = "barButtonItem50";
+            // 
+            // barButtonItem51
+            // 
+            this.barButtonItem51.Caption = "عرض اسعار للعميل";
+            this.barButtonItem51.Id = 38;
+            this.barButtonItem51.Name = "barButtonItem51";
+            // 
+            // barButtonItem52
+            // 
+            this.barButtonItem52.Caption = "فاتورة بيع كاشير";
+            this.barButtonItem52.Id = 39;
+            this.barButtonItem52.Name = "barButtonItem52";
+            // 
+            // barButtonItem53
+            // 
+            this.barButtonItem53.Caption = "فاتورة مردود بيع كاشير";
+            this.barButtonItem53.Id = 40;
+            this.barButtonItem53.Name = "barButtonItem53";
             // 
             // barButtonItem3
             // 
@@ -823,16 +866,6 @@
             this.barButtonItem3.DropDownControl = this.pop_sales_dep;
             this.barButtonItem3.Id = 2;
             this.barButtonItem3.Name = "barButtonItem3";
-            // 
-            // pop_purchases_dep
-            // 
-            this.pop_purchases_dep.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem54),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem55),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem56),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem57)});
-            this.pop_purchases_dep.Manager = this.barManager2;
-            this.pop_purchases_dep.Name = "pop_purchases_dep";
             // 
             // barButtonItem4
             // 
@@ -855,6 +888,48 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem64)});
             this.pop_acc_dep.Manager = this.barManager2;
             this.pop_acc_dep.Name = "pop_acc_dep";
+            // 
+            // barButtonItem58
+            // 
+            this.barButtonItem58.Caption = "قيود اليومية";
+            this.barButtonItem58.Id = 45;
+            this.barButtonItem58.Name = "barButtonItem58";
+            // 
+            // barButtonItem59
+            // 
+            this.barButtonItem59.Caption = "الأصول";
+            this.barButtonItem59.Id = 46;
+            this.barButtonItem59.Name = "barButtonItem59";
+            // 
+            // barButtonItem60
+            // 
+            this.barButtonItem60.Caption = "الإيردادات";
+            this.barButtonItem60.Id = 47;
+            this.barButtonItem60.Name = "barButtonItem60";
+            // 
+            // barButtonItem61
+            // 
+            this.barButtonItem61.Caption = "المصروفات";
+            this.barButtonItem61.Id = 48;
+            this.barButtonItem61.Name = "barButtonItem61";
+            // 
+            // barButtonItem62
+            // 
+            this.barButtonItem62.Caption = "الخصم المسموح به";
+            this.barButtonItem62.Id = 49;
+            this.barButtonItem62.Name = "barButtonItem62";
+            // 
+            // barButtonItem63
+            // 
+            this.barButtonItem63.Caption = "الخصم المكتسب";
+            this.barButtonItem63.Id = 50;
+            this.barButtonItem63.Name = "barButtonItem63";
+            // 
+            // barButtonItem64
+            // 
+            this.barButtonItem64.Caption = "توزيع الأرباح";
+            this.barButtonItem64.Id = 51;
+            this.barButtonItem64.Name = "barButtonItem64";
             // 
             // barButtonItem5
             // 
@@ -880,6 +955,60 @@
             this.pop_stores_dep.Manager = this.barManager2;
             this.pop_stores_dep.Name = "pop_stores_dep";
             // 
+            // barButtonItem71
+            // 
+            this.barButtonItem71.Caption = "استلام بضاعة";
+            this.barButtonItem71.Id = 58;
+            this.barButtonItem71.Name = "barButtonItem71";
+            // 
+            // barButtonItem72
+            // 
+            this.barButtonItem72.Caption = "تسليم بضاعة";
+            this.barButtonItem72.Id = 59;
+            this.barButtonItem72.Name = "barButtonItem72";
+            // 
+            // barButtonItem65
+            // 
+            this.barButtonItem65.Caption = "اذن صرف من المخزن";
+            this.barButtonItem65.Id = 52;
+            this.barButtonItem65.Name = "barButtonItem65";
+            // 
+            // barButtonItem66
+            // 
+            this.barButtonItem66.Caption = "اذن اضافة الى المخزن";
+            this.barButtonItem66.Id = 53;
+            this.barButtonItem66.Name = "barButtonItem66";
+            // 
+            // barButtonItem67
+            // 
+            this.barButtonItem67.Caption = "التحويل من مخزن لمخزن";
+            this.barButtonItem67.Id = 54;
+            this.barButtonItem67.Name = "barButtonItem67";
+            // 
+            // barButtonItem68
+            // 
+            this.barButtonItem68.Caption = "جرد الأصناف بالمخزن";
+            this.barButtonItem68.Id = 55;
+            this.barButtonItem68.Name = "barButtonItem68";
+            // 
+            // barButtonItem69
+            // 
+            this.barButtonItem69.Caption = "جرد الأصناف بالباركود";
+            this.barButtonItem69.Id = 56;
+            this.barButtonItem69.Name = "barButtonItem69";
+            // 
+            // barButtonItem70
+            // 
+            this.barButtonItem70.Caption = "جرد الأصناف بالإكسل";
+            this.barButtonItem70.Id = 57;
+            this.barButtonItem70.Name = "barButtonItem70";
+            // 
+            // barButtonItem73
+            // 
+            this.barButtonItem73.Caption = "فاتورة توالف";
+            this.barButtonItem73.Id = 60;
+            this.barButtonItem73.Name = "barButtonItem73";
+            // 
             // barButtonItem6
             // 
             this.barButtonItem6.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Left;
@@ -897,11 +1026,63 @@
             this.barButtonItem27.Id = 10;
             this.barButtonItem27.Name = "barButtonItem27";
             // 
+            // barButtonItem25
+            // 
+            this.barButtonItem25.Caption = "الأصناف";
+            this.barButtonItem25.Id = 24;
+            this.barButtonItem25.Name = "barButtonItem25";
+            // 
+            // barButtonItem35
+            // 
+            this.barButtonItem35.Caption = "مجموعات الاصناف";
+            this.barButtonItem35.Id = 25;
+            this.barButtonItem35.Name = "barButtonItem35";
+            // 
             // barButtonItem36
             // 
             this.barButtonItem36.Caption = "بيانات الأصناف";
             this.barButtonItem36.Id = 26;
             this.barButtonItem36.Name = "barButtonItem36";
+            // 
+            // barButtonItem47
+            // 
+            this.barButtonItem47.Caption = "الفواتير";
+            this.barButtonItem47.Id = 34;
+            this.barButtonItem47.Name = "barButtonItem47";
+            // 
+            // barButtonItem54
+            // 
+            this.barButtonItem54.Caption = "فاتورة مشتريات";
+            this.barButtonItem54.Id = 41;
+            this.barButtonItem54.Name = "barButtonItem54";
+            // 
+            // barButtonItem55
+            // 
+            this.barButtonItem55.Caption = "فاتورة مردود مشتريات";
+            this.barButtonItem55.Id = 42;
+            this.barButtonItem55.Name = "barButtonItem55";
+            // 
+            // barButtonItem56
+            // 
+            this.barButtonItem56.Caption = "امر شراء";
+            this.barButtonItem56.Id = 43;
+            this.barButtonItem56.Name = "barButtonItem56";
+            // 
+            // barButtonItem57
+            // 
+            this.barButtonItem57.Caption = "عرض اسعار من مورد";
+            this.barButtonItem57.Id = 44;
+            this.barButtonItem57.Name = "barButtonItem57";
+            // 
+            // pop_purchases_dep
+            // 
+            this.pop_purchases_dep.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem54),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem55),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem56),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem57)});
+            this.pop_purchases_dep.Manager = this.barManager2;
+            this.pop_purchases_dep.Name = "pop_purchases_dep";
             // 
             // barManager3
             // 
@@ -976,9 +1157,15 @@
             this.barButtonItem42,
             this.barButtonItem43,
             this.barButtonItem46,
-            this.barButtonItem74});
+            this.barButtonItem74,
+            this.barButtonItem75,
+            this.barButtonItem76,
+            this.barButtonItem77,
+            this.barButtonItem78,
+            this.barButtonItem79,
+            this.barButtonItem80});
             this.barManager4.MainMenu = this.bar2;
-            this.barManager4.MaxItemId = 20;
+            this.barManager4.MaxItemId = 26;
             // 
             // bar2
             // 
@@ -1047,11 +1234,6 @@
             this.barButtonItem9.Name = "barButtonItem9";
             this.barButtonItem9.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
-            // popupMenu7
-            // 
-            this.popupMenu7.Manager = this.barManager4;
-            this.popupMenu7.Name = "popupMenu7";
-            // 
             // barButtonItem10
             // 
             this.barButtonItem10.ActAsDropDown = true;
@@ -1063,11 +1245,6 @@
             this.barButtonItem10.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.LargeImage")));
             this.barButtonItem10.Name = "barButtonItem10";
             this.barButtonItem10.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            // 
-            // popupMenu8
-            // 
-            this.popupMenu8.Manager = this.barManager4;
-            this.popupMenu8.Name = "popupMenu8";
             // 
             // barButtonItem11
             // 
@@ -1081,10 +1258,66 @@
             this.barButtonItem11.Name = "barButtonItem11";
             this.barButtonItem11.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
-            // popupMenu9
+            // barButtonItem74
             // 
-            this.popupMenu9.Manager = this.barManager4;
-            this.popupMenu9.Name = "popupMenu9";
+            this.barButtonItem74.ActAsDropDown = true;
+            this.barButtonItem74.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown;
+            this.barButtonItem74.Caption = "الإدارة المالية";
+            this.barButtonItem74.DropDownControl = this.pop_money_dep;
+            this.barButtonItem74.Id = 19;
+            this.barButtonItem74.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem74.ImageOptions.Image")));
+            this.barButtonItem74.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem74.ImageOptions.LargeImage")));
+            this.barButtonItem74.Name = "barButtonItem74";
+            this.barButtonItem74.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.barButtonItem74.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem74_ItemClick);
+            // 
+            // pop_money_dep
+            // 
+            this.pop_money_dep.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem75),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem76),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem77),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem78),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem79),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem80)});
+            this.pop_money_dep.Manager = this.barManager4;
+            this.pop_money_dep.Name = "pop_money_dep";
+            // 
+            // barButtonItem75
+            // 
+            this.barButtonItem75.Caption = "سندات الدفع";
+            this.barButtonItem75.Id = 20;
+            this.barButtonItem75.Name = "barButtonItem75";
+            // 
+            // barButtonItem76
+            // 
+            this.barButtonItem76.Caption = "سندات القبض";
+            this.barButtonItem76.Id = 21;
+            this.barButtonItem76.Name = "barButtonItem76";
+            // 
+            // barButtonItem77
+            // 
+            this.barButtonItem77.Caption = "التحويلات ";
+            this.barButtonItem77.Id = 22;
+            this.barButtonItem77.Name = "barButtonItem77";
+            // 
+            // barButtonItem78
+            // 
+            this.barButtonItem78.Caption = "اوراق الدفع";
+            this.barButtonItem78.Id = 23;
+            this.barButtonItem78.Name = "barButtonItem78";
+            // 
+            // barButtonItem79
+            // 
+            this.barButtonItem79.Caption = "اوراق القبض";
+            this.barButtonItem79.Id = 24;
+            this.barButtonItem79.Name = "barButtonItem79";
+            // 
+            // barButtonItem80
+            // 
+            this.barButtonItem80.Caption = "حافظة الأوراق المالية";
+            this.barButtonItem80.Id = 25;
+            this.barButtonItem80.Name = "barButtonItem80";
             // 
             // barButtonItem12
             // 
@@ -1097,51 +1330,6 @@
             this.barButtonItem12.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem12.ImageOptions.LargeImage")));
             this.barButtonItem12.Name = "barButtonItem12";
             this.barButtonItem12.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            // 
-            // pop_about
-            // 
-            this.pop_about.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem41),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem42),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem43),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem46)});
-            this.pop_about.Manager = this.barManager4;
-            this.pop_about.Name = "pop_about";
-            // 
-            // barButtonItem41
-            // 
-            this.barButtonItem41.Caption = "تحديث البرنامج";
-            this.barButtonItem41.Id = 15;
-            this.barButtonItem41.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem41.ImageOptions.Image")));
-            this.barButtonItem41.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem41.ImageOptions.LargeImage")));
-            this.barButtonItem41.Name = "barButtonItem41";
-            this.barButtonItem41.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem41_ItemClick);
-            // 
-            // barButtonItem42
-            // 
-            this.barButtonItem42.Caption = "تواصل معنا";
-            this.barButtonItem42.Id = 16;
-            this.barButtonItem42.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem42.ImageOptions.Image")));
-            this.barButtonItem42.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem42.ImageOptions.LargeImage")));
-            this.barButtonItem42.Name = "barButtonItem42";
-            this.barButtonItem42.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem42_ItemClick);
-            // 
-            // barButtonItem43
-            // 
-            this.barButtonItem43.Caption = "ترخيص البرنامج";
-            this.barButtonItem43.Id = 17;
-            this.barButtonItem43.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem43.ImageOptions.Image")));
-            this.barButtonItem43.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem43.ImageOptions.LargeImage")));
-            this.barButtonItem43.Name = "barButtonItem43";
-            // 
-            // barButtonItem46
-            // 
-            this.barButtonItem46.Caption = "تسجيل الخروج";
-            this.barButtonItem46.Id = 18;
-            this.barButtonItem46.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem46.ImageOptions.Image")));
-            this.barButtonItem46.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem46.ImageOptions.LargeImage")));
-            this.barButtonItem46.Name = "barButtonItem46";
-            this.barButtonItem46.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem46_ItemClick);
             // 
             // barButtonItem14
             // 
@@ -1223,6 +1411,51 @@
             this.barButtonItem15.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             this.barButtonItem15.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem15_ItemClick);
             // 
+            // pop_about
+            // 
+            this.pop_about.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem41),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem42),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem43),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem46)});
+            this.pop_about.Manager = this.barManager4;
+            this.pop_about.Name = "pop_about";
+            // 
+            // barButtonItem41
+            // 
+            this.barButtonItem41.Caption = "تحديث البرنامج";
+            this.barButtonItem41.Id = 15;
+            this.barButtonItem41.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem41.ImageOptions.Image")));
+            this.barButtonItem41.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem41.ImageOptions.LargeImage")));
+            this.barButtonItem41.Name = "barButtonItem41";
+            this.barButtonItem41.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem41_ItemClick);
+            // 
+            // barButtonItem42
+            // 
+            this.barButtonItem42.Caption = "تواصل معنا";
+            this.barButtonItem42.Id = 16;
+            this.barButtonItem42.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem42.ImageOptions.Image")));
+            this.barButtonItem42.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem42.ImageOptions.LargeImage")));
+            this.barButtonItem42.Name = "barButtonItem42";
+            this.barButtonItem42.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem42_ItemClick);
+            // 
+            // barButtonItem43
+            // 
+            this.barButtonItem43.Caption = "ترخيص البرنامج";
+            this.barButtonItem43.Id = 17;
+            this.barButtonItem43.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem43.ImageOptions.Image")));
+            this.barButtonItem43.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem43.ImageOptions.LargeImage")));
+            this.barButtonItem43.Name = "barButtonItem43";
+            // 
+            // barButtonItem46
+            // 
+            this.barButtonItem46.Caption = "تسجيل الخروج";
+            this.barButtonItem46.Id = 18;
+            this.barButtonItem46.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem46.ImageOptions.Image")));
+            this.barButtonItem46.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem46.ImageOptions.LargeImage")));
+            this.barButtonItem46.Name = "barButtonItem46";
+            this.barButtonItem46.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem46_ItemClick);
+            // 
             // barDockControl9
             // 
             this.barDockControl9.CausesValidation = false;
@@ -1295,15 +1528,30 @@
             this.barButtonItem20.Id = 14;
             this.barButtonItem20.Name = "barButtonItem20";
             // 
+            // popupMenu1
+            // 
+            this.popupMenu1.Manager = this.barManager4;
+            this.popupMenu1.Name = "popupMenu1";
+            // 
+            // popupMenu7
+            // 
+            this.popupMenu7.Manager = this.barManager4;
+            this.popupMenu7.Name = "popupMenu7";
+            // 
+            // popupMenu8
+            // 
+            this.popupMenu8.Manager = this.barManager4;
+            this.popupMenu8.Name = "popupMenu8";
+            // 
+            // popupMenu9
+            // 
+            this.popupMenu9.Manager = this.barManager4;
+            this.popupMenu9.Name = "popupMenu9";
+            // 
             // popupMenu12
             // 
             this.popupMenu12.Manager = this.barManager4;
             this.popupMenu12.Name = "popupMenu12";
-            // 
-            // popupMenu6
-            // 
-            this.popupMenu6.Manager = this.barManager4;
-            this.popupMenu6.Name = "popupMenu6";
             // 
             // galleryDropDown1
             // 
@@ -1440,198 +1688,6 @@
             this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
             chartTitle1});
             // 
-            // barButtonItem47
-            // 
-            this.barButtonItem47.Caption = "الفواتير";
-            this.barButtonItem47.Id = 34;
-            this.barButtonItem47.Name = "barButtonItem47";
-            // 
-            // barButtonItem48
-            // 
-            this.barButtonItem48.Caption = "فاتورة مبيعات";
-            this.barButtonItem48.Id = 35;
-            this.barButtonItem48.Name = "barButtonItem48";
-            // 
-            // barButtonItem49
-            // 
-            this.barButtonItem49.Caption = "فاتورة مردود مبيعات";
-            this.barButtonItem49.Id = 36;
-            this.barButtonItem49.Name = "barButtonItem49";
-            // 
-            // barButtonItem50
-            // 
-            this.barButtonItem50.Caption = "امر بيع";
-            this.barButtonItem50.Id = 37;
-            this.barButtonItem50.Name = "barButtonItem50";
-            // 
-            // barButtonItem51
-            // 
-            this.barButtonItem51.Caption = "عرض اسعار للعميل";
-            this.barButtonItem51.Id = 38;
-            this.barButtonItem51.Name = "barButtonItem51";
-            // 
-            // barButtonItem52
-            // 
-            this.barButtonItem52.Caption = "فاتورة بيع كاشير";
-            this.barButtonItem52.Id = 39;
-            this.barButtonItem52.Name = "barButtonItem52";
-            // 
-            // barButtonItem53
-            // 
-            this.barButtonItem53.Caption = "فاتورة مردود بيع كاشير";
-            this.barButtonItem53.Id = 40;
-            this.barButtonItem53.Name = "barButtonItem53";
-            // 
-            // barButtonItem54
-            // 
-            this.barButtonItem54.Caption = "فاتورة مشتريات";
-            this.barButtonItem54.Id = 41;
-            this.barButtonItem54.Name = "barButtonItem54";
-            // 
-            // barButtonItem55
-            // 
-            this.barButtonItem55.Caption = "فاتورة مردود مشتريات";
-            this.barButtonItem55.Id = 42;
-            this.barButtonItem55.Name = "barButtonItem55";
-            // 
-            // barButtonItem56
-            // 
-            this.barButtonItem56.Caption = "امر شراء";
-            this.barButtonItem56.Id = 43;
-            this.barButtonItem56.Name = "barButtonItem56";
-            // 
-            // barButtonItem57
-            // 
-            this.barButtonItem57.Caption = "عرض اسعار من مورد";
-            this.barButtonItem57.Id = 44;
-            this.barButtonItem57.Name = "barButtonItem57";
-            // 
-            // barButtonItem58
-            // 
-            this.barButtonItem58.Caption = "قيود اليومية";
-            this.barButtonItem58.Id = 45;
-            this.barButtonItem58.Name = "barButtonItem58";
-            // 
-            // barButtonItem59
-            // 
-            this.barButtonItem59.Caption = "الأصول";
-            this.barButtonItem59.Id = 46;
-            this.barButtonItem59.Name = "barButtonItem59";
-            // 
-            // barButtonItem60
-            // 
-            this.barButtonItem60.Caption = "الإيردادات";
-            this.barButtonItem60.Id = 47;
-            this.barButtonItem60.Name = "barButtonItem60";
-            // 
-            // barButtonItem61
-            // 
-            this.barButtonItem61.Caption = "المصروفات";
-            this.barButtonItem61.Id = 48;
-            this.barButtonItem61.Name = "barButtonItem61";
-            // 
-            // barButtonItem62
-            // 
-            this.barButtonItem62.Caption = "الخصم المسموح به";
-            this.barButtonItem62.Id = 49;
-            this.barButtonItem62.Name = "barButtonItem62";
-            // 
-            // barButtonItem63
-            // 
-            this.barButtonItem63.Caption = "الخصم المكتسب";
-            this.barButtonItem63.Id = 50;
-            this.barButtonItem63.Name = "barButtonItem63";
-            // 
-            // barButtonItem64
-            // 
-            this.barButtonItem64.Caption = "توزيع الأرباح";
-            this.barButtonItem64.Id = 51;
-            this.barButtonItem64.Name = "barButtonItem64";
-            // 
-            // barButtonItem65
-            // 
-            this.barButtonItem65.Caption = "اذن صرف من المخزن";
-            this.barButtonItem65.Id = 52;
-            this.barButtonItem65.Name = "barButtonItem65";
-            // 
-            // barButtonItem66
-            // 
-            this.barButtonItem66.Caption = "اذن اضافة الى المخزن";
-            this.barButtonItem66.Id = 53;
-            this.barButtonItem66.Name = "barButtonItem66";
-            // 
-            // barButtonItem67
-            // 
-            this.barButtonItem67.Caption = "التحويل من مخزن لمخزن";
-            this.barButtonItem67.Id = 54;
-            this.barButtonItem67.Name = "barButtonItem67";
-            // 
-            // barButtonItem68
-            // 
-            this.barButtonItem68.Caption = "جرد الأصناف بالمخزن";
-            this.barButtonItem68.Id = 55;
-            this.barButtonItem68.Name = "barButtonItem68";
-            // 
-            // barButtonItem69
-            // 
-            this.barButtonItem69.Caption = "جرد الأصناف بالباركود";
-            this.barButtonItem69.Id = 56;
-            this.barButtonItem69.Name = "barButtonItem69";
-            // 
-            // barButtonItem70
-            // 
-            this.barButtonItem70.Caption = "جرد الأصناف بالإكسل";
-            this.barButtonItem70.Id = 57;
-            this.barButtonItem70.Name = "barButtonItem70";
-            // 
-            // barButtonItem71
-            // 
-            this.barButtonItem71.Caption = "استلام بضاعة";
-            this.barButtonItem71.Id = 58;
-            this.barButtonItem71.Name = "barButtonItem71";
-            // 
-            // barButtonItem72
-            // 
-            this.barButtonItem72.Caption = "تسليم بضاعة";
-            this.barButtonItem72.Id = 59;
-            this.barButtonItem72.Name = "barButtonItem72";
-            // 
-            // barButtonItem73
-            // 
-            this.barButtonItem73.Caption = "فاتورة توالف";
-            this.barButtonItem73.Id = 60;
-            this.barButtonItem73.Name = "barButtonItem73";
-            // 
-            // barStaticItem4
-            // 
-            this.barStaticItem4.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
-            this.barStaticItem4.Caption = "نسخة مفعلة رسمية";
-            this.barStaticItem4.ContentHorizontalAlignment = DevExpress.XtraBars.BarItemContentAlignment.Center;
-            this.barStaticItem4.Id = 21;
-            this.barStaticItem4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barStaticItem4.ImageOptions.Image")));
-            this.barStaticItem4.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barStaticItem4.ImageOptions.LargeImage")));
-            this.barStaticItem4.Name = "barStaticItem4";
-            this.barStaticItem4.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            this.barStaticItem4.Size = new System.Drawing.Size(200, 20);
-            this.barStaticItem4.Width = 200;
-            // 
-            // barButtonItem74
-            // 
-            this.barButtonItem74.ActAsDropDown = true;
-            this.barButtonItem74.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown;
-            this.barButtonItem74.Caption = "الإدارة المالية";
-            this.barButtonItem74.DropDownControl = this.popupMenu1;
-            this.barButtonItem74.Id = 19;
-            this.barButtonItem74.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem74.ImageOptions.Image")));
-            this.barButtonItem74.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem74.ImageOptions.LargeImage")));
-            this.barButtonItem74.Name = "barButtonItem74";
-            this.barButtonItem74.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            // 
-            // popupMenu1
-            // 
-            this.popupMenu1.Manager = this.barManager4;
-            this.popupMenu1.Name = "popupMenu1";
-            // 
             // frm_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 31F);
@@ -1670,20 +1726,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.barManager2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pop_main)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pop_sales_dep)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pop_purchases_dep)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pop_acc_dep)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pop_stores_dep)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pop_purchases_dep)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.popupMenu7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.popupMenu8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.popupMenu9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pop_about)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pop_money_dep)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pop_about)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.popupMenu6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.galleryDropDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.searchControl1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablePanel1)).EndInit();
@@ -1698,7 +1755,6 @@
             ((System.ComponentModel.ISupportInitialize)(stepLineSeriesView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1752,7 +1808,7 @@
         private DevExpress.XtraBars.BarDockControl barDockControl9;
         private DevExpress.XtraBars.BarDockControl barDockControl10;
         private DevExpress.XtraBars.BarDockControl barDockControl12;
-        private DevExpress.XtraBars.PopupMenu popupMenu6;
+        private DevExpress.XtraBars.PopupMenu pop_money_dep;
         private DevExpress.XtraBars.BarButtonItem barButtonItem8;
         private DevExpress.XtraBars.SkinDropDownButtonItem skinDropDownButtonItem1;
         private DevExpress.XtraBars.SkinPaletteDropDownButtonItem skinPaletteDropDownButtonItem1;
@@ -1849,5 +1905,11 @@
         private DevExpress.XtraBars.BarStaticItem barStaticItem4;
         private DevExpress.XtraBars.BarButtonItem barButtonItem74;
         private DevExpress.XtraBars.PopupMenu popupMenu1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem75;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem76;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem77;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem78;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem79;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem80;
     }
 }
