@@ -56,7 +56,8 @@ namespace Naqra___نقرة
 
         private void barButtonItem7_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
+            frm_connection frm_connection = new frm_connection();
+            frm_connection.Show();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)

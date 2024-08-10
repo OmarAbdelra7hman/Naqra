@@ -96,6 +96,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbConClass.cs" />
     <Compile Include="frm_account_tree.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +126,12 @@
     </Compile>
     <Compile Include="frm_company.Designer.cs">
       <DependentUpon>frm_company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_connection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_connection.Designer.cs">
+      <DependentUpon>frm_connection.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_contact.cs">
       <SubType>Form</SubType>
@@ -197,6 +204,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_company.resx">
       <DependentUpon>frm_company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_connection.resx">
+      <DependentUpon>frm_connection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_contact.resx">
       <DependentUpon>frm_contact.cs</DependentUpon>

@@ -44,6 +44,9 @@
             this.stackPanel16 = new DevExpress.Utils.Layout.StackPanel();
             this.label13 = new System.Windows.Forms.Label();
             this.textEdit12 = new DevExpress.XtraEditors.TextEdit();
+            this.stackPanel25 = new DevExpress.Utils.Layout.StackPanel();
+            this.label22 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.stackPanel17 = new DevExpress.Utils.Layout.StackPanel();
             this.label14 = new System.Windows.Forms.Label();
             this.textEdit13 = new DevExpress.XtraEditors.TextEdit();
@@ -116,9 +119,6 @@
             this.barDockControl2 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl3 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl4 = new DevExpress.XtraBars.BarDockControl();
-            this.stackPanel25 = new DevExpress.Utils.Layout.StackPanel();
-            this.label22 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.panel_title)).BeginInit();
             this.panel_title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabPane1)).BeginInit();
@@ -135,6 +135,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel16)).BeginInit();
             this.stackPanel16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stackPanel25)).BeginInit();
+            this.stackPanel25.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel17)).BeginInit();
             this.stackPanel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).BeginInit();
@@ -189,8 +191,6 @@
             this.stackPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel25)).BeginInit();
-            this.stackPanel25.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_title
@@ -377,6 +377,36 @@
             this.textEdit12.Properties.Padding = new System.Windows.Forms.Padding(5);
             this.textEdit12.Size = new System.Drawing.Size(239, 38);
             this.textEdit12.TabIndex = 2;
+            // 
+            // stackPanel25
+            // 
+            this.stackPanel25.Controls.Add(this.label22);
+            this.stackPanel25.Controls.Add(this.dateTimePicker1);
+            this.stackPanel25.Location = new System.Drawing.Point(63, 180);
+            this.stackPanel25.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.stackPanel25.Name = "stackPanel25";
+            this.stackPanel25.Size = new System.Drawing.Size(401, 56);
+            this.stackPanel25.TabIndex = 38;
+            this.stackPanel25.UseSkinIndents = true;
+            // 
+            // label22
+            // 
+            this.label22.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(268, 11);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(118, 33);
+            this.label22.TabIndex = 0;
+            this.label22.Text = "تاريخ التعيين";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CustomFormat = "yyyy-MM-dd";
+            this.dateTimePicker1.Location = new System.Drawing.Point(23, 9);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(239, 38);
+            this.dateTimePicker1.TabIndex = 1;
             // 
             // stackPanel17
             // 
@@ -919,7 +949,7 @@
             this.tabNavigationPage3.Caption = "الحسابات";
             this.tabNavigationPage3.Controls.Add(this.stackPanel1);
             this.tabNavigationPage3.Name = "tabNavigationPage3";
-            this.tabNavigationPage3.Size = new System.Drawing.Size(1076, 595);
+            this.tabNavigationPage3.Size = new System.Drawing.Size(1051, 575);
             // 
             // stackPanel1
             // 
@@ -927,9 +957,9 @@
             this.stackPanel1.Controls.Add(this.stackPanel3);
             this.stackPanel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.stackPanel1.LayoutDirection = DevExpress.Utils.Layout.StackPanelLayoutDirection.TopDown;
-            this.stackPanel1.Location = new System.Drawing.Point(700, 0);
+            this.stackPanel1.Location = new System.Drawing.Point(675, 0);
             this.stackPanel1.Name = "stackPanel1";
-            this.stackPanel1.Size = new System.Drawing.Size(376, 595);
+            this.stackPanel1.Size = new System.Drawing.Size(376, 575);
             this.stackPanel1.TabIndex = 0;
             this.stackPanel1.UseSkinIndents = true;
             // 
@@ -1246,36 +1276,6 @@
             this.barDockControl4.Manager = this.barManager1;
             this.barDockControl4.Size = new System.Drawing.Size(0, 660);
             // 
-            // stackPanel25
-            // 
-            this.stackPanel25.Controls.Add(this.label22);
-            this.stackPanel25.Controls.Add(this.dateTimePicker1);
-            this.stackPanel25.Location = new System.Drawing.Point(63, 180);
-            this.stackPanel25.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.stackPanel25.Name = "stackPanel25";
-            this.stackPanel25.Size = new System.Drawing.Size(401, 56);
-            this.stackPanel25.TabIndex = 38;
-            this.stackPanel25.UseSkinIndents = true;
-            // 
-            // label22
-            // 
-            this.label22.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(268, 11);
-            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(118, 33);
-            this.label22.TabIndex = 0;
-            this.label22.Text = "تاريخ التعيين";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.CustomFormat = "yyyy-MM-dd";
-            this.dateTimePicker1.Location = new System.Drawing.Point(23, 9);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(239, 38);
-            this.dateTimePicker1.TabIndex = 1;
-            // 
             // frm_employee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 31F);
@@ -1310,6 +1310,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel16)).EndInit();
             this.stackPanel16.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stackPanel25)).EndInit();
+            this.stackPanel25.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel17)).EndInit();
             this.stackPanel17.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).EndInit();
@@ -1364,8 +1366,6 @@
             this.stackPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel25)).EndInit();
-            this.stackPanel25.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
