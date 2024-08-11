@@ -183,5 +183,11 @@ namespace Naqra___نقرة
         {
             groupBox1.Enabled = true;
         }
+
+        private void barButtonItem6_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_db frm_Db = new frm_db();
+             frm_Db.ShowDialog();
+        }
     }
 }

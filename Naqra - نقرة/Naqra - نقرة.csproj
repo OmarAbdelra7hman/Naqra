@@ -139,6 +139,12 @@
     <Compile Include="frm_contact.Designer.cs">
       <DependentUpon>frm_contact.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_db.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_db.Designer.cs">
+      <DependentUpon>frm_db.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_donwload.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -211,6 +217,9 @@
     <EmbeddedResource Include="frm_contact.resx">
       <DependentUpon>frm_contact.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_db.resx">
+      <DependentUpon>frm_db.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_donwload.resx">
       <DependentUpon>frm_donwload.cs</DependentUpon>
     </EmbeddedResource>
@@ -249,6 +258,7 @@
     <None Include="App.config" />
     <None Include="app.manifest" />
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\frm_connection.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -37,18 +37,24 @@
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
             this.barManager2 = new DevExpress.XtraBars.BarManager(this.components);
             this.bar1 = new DevExpress.XtraBars.Bar();
+            this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
             this.bar3 = new DevExpress.XtraBars.Bar();
+            this.barStaticItem1 = new DevExpress.XtraBars.BarStaticItem();
             this.barDockControl1 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl2 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl3 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl4 = new DevExpress.XtraBars.BarDockControl();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtBackupPath = new System.Windows.Forms.Label();
             this.grp_wide = new System.Windows.Forms.GroupBox();
             this.stackPanel12 = new DevExpress.Utils.Layout.StackPanel();
             this.label12 = new System.Windows.Forms.Label();
+            this.db_name = new DevExpress.XtraEditors.TextEdit();
             this.stackPanel10 = new DevExpress.Utils.Layout.StackPanel();
             this.label10 = new System.Windows.Forms.Label();
             this.server_ip = new DevExpress.XtraEditors.TextEdit();
@@ -70,18 +76,14 @@
             this.pc_name = new DevExpress.XtraEditors.TextEdit();
             this.radio_wide = new System.Windows.Forms.RadioButton();
             this.radio_local = new System.Windows.Forms.RadioButton();
-            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.barStaticItem1 = new DevExpress.XtraBars.BarStaticItem();
-            this.txtBackupPath = new System.Windows.Forms.Label();
-            this.db_name = new DevExpress.XtraEditors.TextEdit();
-            this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager2)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.grp_wide.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel12)).BeginInit();
             this.stackPanel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.db_name.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel10)).BeginInit();
             this.stackPanel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.server_ip.Properties)).BeginInit();
@@ -101,7 +103,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel3)).BeginInit();
             this.stackPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pc_name.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_name.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // barManager1
@@ -160,8 +161,9 @@
             this.barButtonItem3,
             this.barButtonItem4,
             this.barStaticItem1,
-            this.barButtonItem5});
-            this.barManager2.MaxItemId = 6;
+            this.barButtonItem5,
+            this.barButtonItem6});
+            this.barManager2.MaxItemId = 7;
             this.barManager2.StatusBar = this.bar3;
             // 
             // bar1
@@ -175,12 +177,33 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem3),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem1),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem2),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem4)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem4),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem6)});
             this.bar1.OptionsBar.AllowQuickCustomization = false;
             this.bar1.OptionsBar.DrawBorder = false;
             this.bar1.OptionsBar.DrawDragBorder = false;
             this.bar1.OptionsBar.UseWholeRow = true;
             this.bar1.Text = "Tools";
+            // 
+            // barButtonItem5
+            // 
+            this.barButtonItem5.Caption = "تعديل البيانات";
+            this.barButtonItem5.Id = 5;
+            this.barButtonItem5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.Image")));
+            this.barButtonItem5.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.LargeImage")));
+            this.barButtonItem5.Name = "barButtonItem5";
+            this.barButtonItem5.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.barButtonItem5.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem5_ItemClick);
+            // 
+            // barButtonItem3
+            // 
+            this.barButtonItem3.Caption = "حفظ الإعدادات الحالية";
+            this.barButtonItem3.Id = 2;
+            this.barButtonItem3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.Image")));
+            this.barButtonItem3.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
+            this.barButtonItem3.Name = "barButtonItem3";
+            this.barButtonItem3.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
             // barButtonItem1
             // 
@@ -201,15 +224,25 @@
             this.barButtonItem2.Name = "barButtonItem2";
             this.barButtonItem2.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
-            // barButtonItem3
+            // barButtonItem4
             // 
-            this.barButtonItem3.Caption = "حفظ الإعدادات الحالية";
-            this.barButtonItem3.Id = 2;
-            this.barButtonItem3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.Image")));
-            this.barButtonItem3.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
-            this.barButtonItem3.Name = "barButtonItem3";
-            this.barButtonItem3.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
+            this.barButtonItem4.Caption = "اعداد نسخة احتياطية";
+            this.barButtonItem4.Id = 3;
+            this.barButtonItem4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
+            this.barButtonItem4.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.LargeImage")));
+            this.barButtonItem4.Name = "barButtonItem4";
+            this.barButtonItem4.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
+            // 
+            // barButtonItem6
+            // 
+            this.barButtonItem6.Caption = "تصفح قواعد البياانات";
+            this.barButtonItem6.Id = 6;
+            this.barButtonItem6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.Image")));
+            this.barButtonItem6.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.LargeImage")));
+            this.barButtonItem6.Name = "barButtonItem6";
+            this.barButtonItem6.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.barButtonItem6.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem6_ItemClick);
             // 
             // bar3
             // 
@@ -224,6 +257,11 @@
             this.bar3.OptionsBar.DrawDragBorder = false;
             this.bar3.OptionsBar.UseWholeRow = true;
             this.bar3.Text = "Status bar";
+            // 
+            // barStaticItem1
+            // 
+            this.barStaticItem1.Id = 4;
+            this.barStaticItem1.Name = "barStaticItem1";
             // 
             // barDockControl1
             // 
@@ -272,6 +310,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "اعدادات الاتصال";
             // 
+            // txtBackupPath
+            // 
+            this.txtBackupPath.AutoSize = true;
+            this.txtBackupPath.Location = new System.Drawing.Point(130, 38);
+            this.txtBackupPath.Name = "txtBackupPath";
+            this.txtBackupPath.Size = new System.Drawing.Size(49, 31);
+            this.txtBackupPath.TabIndex = 29;
+            this.txtBackupPath.Text = "label3";
+            this.txtBackupPath.Visible = false;
+            // 
             // grp_wide
             // 
             this.grp_wide.Controls.Add(this.stackPanel12);
@@ -307,6 +355,21 @@
             this.label12.TabIndex = 5;
             this.label12.Text = "قاعدة البيانات";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // db_name
+            // 
+            this.db_name.EditValue = "";
+            this.db_name.Location = new System.Drawing.Point(11, 12);
+            this.db_name.Name = "db_name";
+            this.db_name.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.db_name.Properties.Appearance.Options.UseFont = true;
+            this.db_name.Properties.Appearance.Options.UseTextOptions = true;
+            this.db_name.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.db_name.Properties.AutoHeight = false;
+            this.db_name.Properties.NullText = "1";
+            this.db_name.Properties.Padding = new System.Windows.Forms.Padding(5);
+            this.db_name.Size = new System.Drawing.Size(221, 32);
+            this.db_name.TabIndex = 8;
             // 
             // stackPanel10
             // 
@@ -564,59 +627,9 @@
             this.radio_local.UseVisualStyleBackColor = true;
             this.radio_local.CheckedChanged += new System.EventHandler(this.radio_local_CheckedChanged_1);
             // 
-            // barButtonItem4
-            // 
-            this.barButtonItem4.Caption = "اعداد نسخة احتياطية";
-            this.barButtonItem4.Id = 3;
-            this.barButtonItem4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
-            this.barButtonItem4.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.LargeImage")));
-            this.barButtonItem4.Name = "barButtonItem4";
-            this.barButtonItem4.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
-            // 
             // saveFileDialog1
             // 
             this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
-            // 
-            // barStaticItem1
-            // 
-            this.barStaticItem1.Id = 4;
-            this.barStaticItem1.Name = "barStaticItem1";
-            // 
-            // txtBackupPath
-            // 
-            this.txtBackupPath.AutoSize = true;
-            this.txtBackupPath.Location = new System.Drawing.Point(130, 38);
-            this.txtBackupPath.Name = "txtBackupPath";
-            this.txtBackupPath.Size = new System.Drawing.Size(49, 31);
-            this.txtBackupPath.TabIndex = 29;
-            this.txtBackupPath.Text = "label3";
-            this.txtBackupPath.Visible = false;
-            // 
-            // db_name
-            // 
-            this.db_name.EditValue = "";
-            this.db_name.Location = new System.Drawing.Point(11, 12);
-            this.db_name.Name = "db_name";
-            this.db_name.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.db_name.Properties.Appearance.Options.UseFont = true;
-            this.db_name.Properties.Appearance.Options.UseTextOptions = true;
-            this.db_name.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.db_name.Properties.AutoHeight = false;
-            this.db_name.Properties.NullText = "1";
-            this.db_name.Properties.Padding = new System.Windows.Forms.Padding(5);
-            this.db_name.Size = new System.Drawing.Size(221, 32);
-            this.db_name.TabIndex = 8;
-            // 
-            // barButtonItem5
-            // 
-            this.barButtonItem5.Caption = "تعديل البيانات";
-            this.barButtonItem5.Id = 5;
-            this.barButtonItem5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.Image")));
-            this.barButtonItem5.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.LargeImage")));
-            this.barButtonItem5.Name = "barButtonItem5";
-            this.barButtonItem5.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
-            this.barButtonItem5.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem5_ItemClick);
             // 
             // frm_connection
             // 
@@ -647,6 +660,7 @@
             this.grp_wide.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel12)).EndInit();
             this.stackPanel12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.db_name.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel10)).EndInit();
             this.stackPanel10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.server_ip.Properties)).EndInit();
@@ -666,7 +680,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel3)).EndInit();
             this.stackPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pc_name.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_name.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -720,5 +733,6 @@
         private DevExpress.XtraBars.BarStaticItem barStaticItem1;
         private DevExpress.XtraEditors.TextEdit db_name;
         private DevExpress.XtraBars.BarButtonItem barButtonItem5;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem6;
     }
 }
