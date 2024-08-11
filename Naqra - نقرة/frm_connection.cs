@@ -19,7 +19,7 @@ namespace Naqra___نقرة
         {
             InitializeComponent();
             getConnData();
-            selected_db_DropDown();
+        
         }
 
         private  void getConnData()
@@ -40,6 +40,7 @@ namespace Naqra___نقرة
                 user.Text = Properties.Settings.Default.user;
                 pass.Text = Properties.Settings.Default.pass;
                 server_port.Text = Properties.Settings.Default.server_port;
+                db_name.Text = Properties.Settings.Default.selected_db;
                 
             }
         }
@@ -72,49 +73,10 @@ namespace Naqra___نقرة
 
         private void selected_db_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+           
         }
 
-        private void selected_db_DropDown()
-        {
-            // Check if the server is connected
-            if (DbConClass.IsServerConnected())
-            {
-                try
-                {
-                    // Define the SQL query to get the list of user databases excluding system databases
-                    string query = "SELECT name FROM sys.databases WHERE name NOT IN ('master', 'model', 'msdb', 'tempdb')";
-
-                    // Initialize SqlDataAdapter and DataTable
-                    SqlDataAdapter da = new SqlDataAdapter(query, DbConClass.conn);
-                    DataTable dt = new DataTable();
-
-                    // Fill the DataTable with the results of the query
-                    da.Fill(dt);
-
-                    // Clear existing items
-                    selected_db.Properties.Items.Clear();
-
-                    // Add each database name to the items list
-                    foreach (DataRow row in dt.Rows)
-                    {
-                        string dbName = row["name"].ToString();
-                        selected_db.Properties.Items.Add(dbName);
-                    }
-                }
-                catch (Exception ex)
-                {
-                    // Handle exceptions
-                    MessageBox.Show("An error occurred: " + ex.Message);
-                }
-            }
-            else
-            {
-                // Handle the case when the server is not connected
-                MessageBox.Show("Server is not connected.");
-            }
-            
-        }
+      
 
         private void setData()
         {
@@ -122,6 +84,7 @@ namespace Naqra___نقرة
            Properties.Settings.Default.user = user.Text;
            Properties.Settings.Default.pass = pass.Text;
            Properties.Settings.Default.server_port = server_port.Text;
+            Properties.Settings.Default.selected_db = db_name.Text;
             if (radio_wide.Checked)
             {
                 Properties.Settings.Default.auth_type = 1;
@@ -131,6 +94,7 @@ namespace Naqra___نقرة
                 Properties.Settings.Default.auth_type = 0;
             }
             Properties.Settings.Default.Save();
+            Properties.Settings.Default.Upgrade();
         }
 
         private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -138,6 +102,86 @@ namespace Naqra___نقرة
            
             setData();
             MessageBox.Show("تم حفظ البيانات بنجاح");
+            groupBox1.Enabled = false;
+        }
+
+        private void frm_connection_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void selected_db_MouseClick(object sender, MouseEventArgs e)
+        {
+           
+        }
+
+        private void barButtonItem4_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            DbConClass.Con();
+            DbConClass.conn.Open();
+            string databaseName = Properties.Settings.Default.selected_db;
+            string backupFilePath = txtBackupPath.Text;
+
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+            {
+                saveFileDialog.Filter = "Backup files (*.bak)|*.bak|All files (*.*)|*.*";
+                saveFileDialog.Title = "Save Database Backup As";
+                saveFileDialog.DefaultExt = "bak";
+                saveFileDialog.AddExtension = true;
+                saveFileDialog.FileName = $"{Properties.Settings.Default.selected_db}_Backup_{DateTime.Now.ToString("yyyyMMddHHmmss")}.bak";
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    txtBackupPath.Text = saveFileDialog.FileName;
+                    try
+                    {
+
+
+                        // Connection string - replace with your server and authentication details
+                        string connectionString = "Server=YOUR_SERVER_NAME;Database=master;Integrated Security=True;";
+
+                        using (SqlConnection conn = new SqlConnection(connectionString))
+                        {
+                                    string backupQuery = $@"
+                                BACKUP DATABASE [{databaseName}] 
+                                TO DISK = '{backupFilePath}' 
+                                WITH FORMAT, INIT, 
+                                NAME = 'Full Backup of {databaseName}', 
+                                SKIP, NOREWIND, NOUNLOAD, STATS = 10";
+
+                            using (SqlCommand cmd = new SqlCommand(backupQuery, DbConClass.conn))
+                            {
+                                cmd.ExecuteNonQuery();
+                            }
+
+                            MessageBox.Show($"عملية النسخ الاحتياطي لقاعدة البيانات {databaseName} تمت بنجاح.", "تم الانتهاء بنجاح", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"An error occurred while backing up the database: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+           
+
+            if (string.IsNullOrEmpty(databaseName) || string.IsNullOrEmpty(backupFilePath))
+            {
+                MessageBox.Show("Please specify the database name and backup file path.");
+                return;
+            }
+
+           
+        }
+
+        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+          
+        }
+
+        private void barButtonItem5_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            groupBox1.Enabled = true;
         }
     }
 }

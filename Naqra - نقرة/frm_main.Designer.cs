@@ -198,6 +198,7 @@
             this.bar5 = new DevExpress.XtraBars.Bar();
             this.stackPanel1 = new DevExpress.Utils.Layout.StackPanel();
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
+            this.barButtonItem81 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pop_main)).BeginInit();
@@ -1163,9 +1164,10 @@
             this.barButtonItem77,
             this.barButtonItem78,
             this.barButtonItem79,
-            this.barButtonItem80});
+            this.barButtonItem80,
+            this.barButtonItem81});
             this.barManager4.MainMenu = this.bar2;
-            this.barManager4.MaxItemId = 26;
+            this.barManager4.MaxItemId = 27;
             // 
             // bar2
             // 
@@ -1417,7 +1419,8 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem41),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem42),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem43),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem46)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem46),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem81)});
             this.pop_about.Manager = this.barManager4;
             this.pop_about.Name = "pop_about";
             // 
@@ -1688,6 +1691,15 @@
             this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
             chartTitle1});
             // 
+            // barButtonItem81
+            // 
+            this.barButtonItem81.Caption = "ادارة قواعد البيانات";
+            this.barButtonItem81.Id = 26;
+            this.barButtonItem81.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem81.ImageOptions.Image")));
+            this.barButtonItem81.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem81.ImageOptions.LargeImage")));
+            this.barButtonItem81.Name = "barButtonItem81";
+            this.barButtonItem81.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem81_ItemClick);
+            // 
             // frm_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 31F);
@@ -1911,5 +1923,6 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem78;
         private DevExpress.XtraBars.BarButtonItem barButtonItem79;
         private DevExpress.XtraBars.BarButtonItem barButtonItem80;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem81;
     }
 }

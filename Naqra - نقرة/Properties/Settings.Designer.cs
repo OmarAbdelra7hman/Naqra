@@ -25,7 +25,7 @@ namespace Naqra___نقرة.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("DESKTOP-II6ME6P")]
+        [global::System.Configuration.DefaultSettingValueAttribute("192.168.2.10")]
         public string server_name {
             get {
                 return ((string)(this["server_name"]));
@@ -61,7 +61,7 @@ namespace Naqra___نقرة.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("ok")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Aaswaq2212")]
         public string pass {
             get {
                 return ((string)(this["pass"]));
@@ -73,7 +73,7 @@ namespace Naqra___نقرة.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
         public int auth_type {
             get {
                 return ((int)(this["auth_type"]));
@@ -85,7 +85,7 @@ namespace Naqra___نقرة.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("naqraERP")]
+        [global::System.Configuration.DefaultSettingValueAttribute("mansura01012024")]
         public string selected_db {
             get {
                 return ((string)(this["selected_db"]));

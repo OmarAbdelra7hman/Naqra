@@ -47,6 +47,8 @@
             this.barDockControl4 = new DevExpress.XtraBars.BarDockControl();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.grp_wide = new System.Windows.Forms.GroupBox();
+            this.stackPanel12 = new DevExpress.Utils.Layout.StackPanel();
+            this.label12 = new System.Windows.Forms.Label();
             this.stackPanel10 = new DevExpress.Utils.Layout.StackPanel();
             this.label10 = new System.Windows.Forms.Label();
             this.server_ip = new DevExpress.XtraEditors.TextEdit();
@@ -60,24 +62,26 @@
             this.label6 = new System.Windows.Forms.Label();
             this.user = new DevExpress.XtraEditors.TextEdit();
             this.grp_local = new System.Windows.Forms.GroupBox();
+            this.stackPanel2 = new DevExpress.Utils.Layout.StackPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.stackPanel3 = new DevExpress.Utils.Layout.StackPanel();
             this.label4 = new System.Windows.Forms.Label();
             this.pc_name = new DevExpress.XtraEditors.TextEdit();
             this.radio_wide = new System.Windows.Forms.RadioButton();
             this.radio_local = new System.Windows.Forms.RadioButton();
-            this.stackPanel13 = new DevExpress.Utils.Layout.StackPanel();
-            this.comboBoxEdit6 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.label13 = new System.Windows.Forms.Label();
-            this.selected_db = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.label12 = new System.Windows.Forms.Label();
-            this.stackPanel12 = new DevExpress.Utils.Layout.StackPanel();
-            this.stackPanel2 = new DevExpress.Utils.Layout.StackPanel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.barStaticItem1 = new DevExpress.XtraBars.BarStaticItem();
+            this.txtBackupPath = new System.Windows.Forms.Label();
+            this.db_name = new DevExpress.XtraEditors.TextEdit();
+            this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager2)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.grp_wide.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.stackPanel12)).BeginInit();
+            this.stackPanel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel10)).BeginInit();
             this.stackPanel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.server_ip.Properties)).BeginInit();
@@ -91,18 +95,13 @@
             this.stackPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.user.Properties)).BeginInit();
             this.grp_local.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel3)).BeginInit();
-            this.stackPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pc_name.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel13)).BeginInit();
-            this.stackPanel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.selected_db.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel12)).BeginInit();
-            this.stackPanel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel2)).BeginInit();
             this.stackPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stackPanel3)).BeginInit();
+            this.stackPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pc_name.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.db_name.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // barManager1
@@ -125,7 +124,7 @@
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 485);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 463);
             this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Size = new System.Drawing.Size(879, 0);
             // 
@@ -135,7 +134,7 @@
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 42);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 443);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 421);
             // 
             // barDockControlRight
             // 
@@ -143,7 +142,7 @@
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControlRight.Location = new System.Drawing.Point(879, 42);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 443);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 421);
             // 
             // barManager2
             // 
@@ -158,8 +157,11 @@
             this.barManager2.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.barButtonItem1,
             this.barButtonItem2,
-            this.barButtonItem3});
-            this.barManager2.MaxItemId = 3;
+            this.barButtonItem3,
+            this.barButtonItem4,
+            this.barStaticItem1,
+            this.barButtonItem5});
+            this.barManager2.MaxItemId = 6;
             this.barManager2.StatusBar = this.bar3;
             // 
             // bar1
@@ -169,9 +171,11 @@
             this.bar1.DockRow = 0;
             this.bar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
             this.bar1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem5),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem3),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem1),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem2),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem3)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem4)});
             this.bar1.OptionsBar.AllowQuickCustomization = false;
             this.bar1.OptionsBar.DrawBorder = false;
             this.bar1.OptionsBar.DrawDragBorder = false;
@@ -214,6 +218,8 @@
             this.bar3.DockCol = 0;
             this.bar3.DockRow = 0;
             this.bar3.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom;
+            this.bar3.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barStaticItem1)});
             this.bar3.OptionsBar.AllowQuickCustomization = false;
             this.bar3.OptionsBar.DrawDragBorder = false;
             this.bar3.OptionsBar.UseWholeRow = true;
@@ -231,9 +237,9 @@
             // 
             this.barDockControl2.CausesValidation = false;
             this.barDockControl2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControl2.Location = new System.Drawing.Point(0, 485);
+            this.barDockControl2.Location = new System.Drawing.Point(0, 463);
             this.barDockControl2.Manager = this.barManager2;
-            this.barDockControl2.Size = new System.Drawing.Size(879, 18);
+            this.barDockControl2.Size = new System.Drawing.Size(879, 40);
             // 
             // barDockControl3
             // 
@@ -241,7 +247,7 @@
             this.barDockControl3.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControl3.Location = new System.Drawing.Point(0, 42);
             this.barDockControl3.Manager = this.barManager2;
-            this.barDockControl3.Size = new System.Drawing.Size(0, 443);
+            this.barDockControl3.Size = new System.Drawing.Size(0, 421);
             // 
             // barDockControl4
             // 
@@ -249,14 +255,16 @@
             this.barDockControl4.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControl4.Location = new System.Drawing.Point(879, 42);
             this.barDockControl4.Manager = this.barManager2;
-            this.barDockControl4.Size = new System.Drawing.Size(0, 443);
+            this.barDockControl4.Size = new System.Drawing.Size(0, 421);
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtBackupPath);
             this.groupBox1.Controls.Add(this.grp_wide);
             this.groupBox1.Controls.Add(this.grp_local);
             this.groupBox1.Controls.Add(this.radio_wide);
             this.groupBox1.Controls.Add(this.radio_local);
+            this.groupBox1.Enabled = false;
             this.groupBox1.Location = new System.Drawing.Point(25, 59);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(831, 398);
@@ -277,6 +285,28 @@
             this.grp_wide.TabIndex = 28;
             this.grp_wide.TabStop = false;
             this.grp_wide.Text = "خارجي";
+            // 
+            // stackPanel12
+            // 
+            this.stackPanel12.Controls.Add(this.label12);
+            this.stackPanel12.Controls.Add(this.db_name);
+            this.stackPanel12.Location = new System.Drawing.Point(29, 234);
+            this.stackPanel12.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.stackPanel12.Name = "stackPanel12";
+            this.stackPanel12.Size = new System.Drawing.Size(358, 58);
+            this.stackPanel12.TabIndex = 37;
+            this.stackPanel12.UseSkinIndents = true;
+            // 
+            // label12
+            // 
+            this.label12.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(238, 12);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(105, 33);
+            this.label12.TabIndex = 5;
+            this.label12.Text = "قاعدة البيانات";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // stackPanel10
             // 
@@ -305,7 +335,7 @@
             this.server_ip.EditValue = "";
             this.server_ip.Location = new System.Drawing.Point(11, 4);
             this.server_ip.Name = "server_ip";
-            this.server_ip.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.server_ip.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.server_ip.Properties.Appearance.Options.UseFont = true;
             this.server_ip.Properties.Appearance.Options.UseTextOptions = true;
             this.server_ip.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
@@ -342,7 +372,7 @@
             this.pass.EditValue = "";
             this.pass.Location = new System.Drawing.Point(11, 4);
             this.pass.Name = "pass";
-            this.pass.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pass.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pass.Properties.Appearance.Options.UseFont = true;
             this.pass.Properties.Appearance.Options.UseTextOptions = true;
             this.pass.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
@@ -379,7 +409,7 @@
             this.server_port.EditValue = "";
             this.server_port.Location = new System.Drawing.Point(11, 4);
             this.server_port.Name = "server_port";
-            this.server_port.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.server_port.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.server_port.Properties.Appearance.Options.UseFont = true;
             this.server_port.Properties.Appearance.Options.UseTextOptions = true;
             this.server_port.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
@@ -416,7 +446,7 @@
             this.user.EditValue = "";
             this.user.Location = new System.Drawing.Point(11, 4);
             this.user.Name = "user";
-            this.user.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.user.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.user.Properties.Appearance.Options.UseFont = true;
             this.user.Properties.Appearance.Options.UseTextOptions = true;
             this.user.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
@@ -436,6 +466,43 @@
             this.grp_local.TabIndex = 28;
             this.grp_local.TabStop = false;
             this.grp_local.Text = "داخلي";
+            // 
+            // stackPanel2
+            // 
+            this.stackPanel2.Controls.Add(this.label2);
+            this.stackPanel2.Controls.Add(this.textEdit1);
+            this.stackPanel2.Location = new System.Drawing.Point(8, 93);
+            this.stackPanel2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.stackPanel2.Name = "stackPanel2";
+            this.stackPanel2.Size = new System.Drawing.Size(358, 41);
+            this.stackPanel2.TabIndex = 34;
+            this.stackPanel2.UseSkinIndents = true;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(238, 4);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(105, 33);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "المنفذ";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textEdit1
+            // 
+            this.textEdit1.EditValue = "";
+            this.textEdit1.Location = new System.Drawing.Point(11, 4);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit1.Properties.Appearance.Options.UseFont = true;
+            this.textEdit1.Properties.Appearance.Options.UseTextOptions = true;
+            this.textEdit1.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.textEdit1.Properties.AutoHeight = false;
+            this.textEdit1.Properties.NullText = "1";
+            this.textEdit1.Properties.Padding = new System.Windows.Forms.Padding(5);
+            this.textEdit1.Size = new System.Drawing.Size(221, 32);
+            this.textEdit1.TabIndex = 7;
             // 
             // stackPanel3
             // 
@@ -464,7 +531,7 @@
             this.pc_name.EditValue = "";
             this.pc_name.Location = new System.Drawing.Point(11, 12);
             this.pc_name.Name = "pc_name";
-            this.pc_name.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pc_name.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pc_name.Properties.Appearance.Options.UseFont = true;
             this.pc_name.Properties.Appearance.Options.UseTextOptions = true;
             this.pc_name.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
@@ -497,125 +564,59 @@
             this.radio_local.UseVisualStyleBackColor = true;
             this.radio_local.CheckedChanged += new System.EventHandler(this.radio_local_CheckedChanged_1);
             // 
-            // stackPanel13
+            // barButtonItem4
             // 
-            this.stackPanel13.Controls.Add(this.label13);
-            this.stackPanel13.Controls.Add(this.comboBoxEdit6);
-            this.stackPanel13.Location = new System.Drawing.Point(-353, 3);
-            this.stackPanel13.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.stackPanel13.Name = "stackPanel13";
-            this.stackPanel13.Size = new System.Drawing.Size(358, 52);
-            this.stackPanel13.TabIndex = 28;
-            this.stackPanel13.UseSkinIndents = true;
+            this.barButtonItem4.Caption = "اعداد نسخة احتياطية";
+            this.barButtonItem4.Id = 3;
+            this.barButtonItem4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
+            this.barButtonItem4.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.LargeImage")));
+            this.barButtonItem4.Name = "barButtonItem4";
+            this.barButtonItem4.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
             // 
-            // comboBoxEdit6
+            // saveFileDialog1
             // 
-            this.comboBoxEdit6.EditValue = "";
-            this.comboBoxEdit6.Location = new System.Drawing.Point(11, 10);
-            this.comboBoxEdit6.Name = "comboBoxEdit6";
-            this.comboBoxEdit6.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit6.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit6.Properties.NullText = "1";
-            this.comboBoxEdit6.Properties.Padding = new System.Windows.Forms.Padding(5);
-            this.comboBoxEdit6.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.comboBoxEdit6.Size = new System.Drawing.Size(221, 32);
-            this.comboBoxEdit6.TabIndex = 6;
+            this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
             // 
-            // label13
+            // barStaticItem1
             // 
-            this.label13.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(238, 9);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(105, 33);
-            this.label13.TabIndex = 5;
-            this.label13.Text = "الحساب الأب";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.barStaticItem1.Id = 4;
+            this.barStaticItem1.Name = "barStaticItem1";
             // 
-            // selected_db
+            // txtBackupPath
             // 
-            this.selected_db.EditValue = "";
-            this.selected_db.Location = new System.Drawing.Point(11, 12);
-            this.selected_db.Name = "selected_db";
-            this.selected_db.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.selected_db.Properties.Appearance.Options.UseFont = true;
-            this.selected_db.Properties.Appearance.Options.UseTextOptions = true;
-            this.selected_db.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.selected_db.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.selected_db.Properties.AppearanceItemSelected.Options.UseTextOptions = true;
-            this.selected_db.Properties.AppearanceItemSelected.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.selected_db.Properties.AppearanceItemSelected.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.selected_db.Properties.AutoHeight = false;
-            this.selected_db.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.selected_db.Properties.ItemAutoHeight = true;
-            this.selected_db.Properties.NullText = "1";
-            this.selected_db.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.selected_db.Size = new System.Drawing.Size(221, 32);
-            this.selected_db.TabIndex = 6;
-            this.selected_db.SelectedIndexChanged += new System.EventHandler(this.selected_db_SelectedIndexChanged);
+            this.txtBackupPath.AutoSize = true;
+            this.txtBackupPath.Location = new System.Drawing.Point(130, 38);
+            this.txtBackupPath.Name = "txtBackupPath";
+            this.txtBackupPath.Size = new System.Drawing.Size(49, 31);
+            this.txtBackupPath.TabIndex = 29;
+            this.txtBackupPath.Text = "label3";
+            this.txtBackupPath.Visible = false;
             // 
-            // label12
+            // db_name
             // 
-            this.label12.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(238, 12);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(105, 33);
-            this.label12.TabIndex = 5;
-            this.label12.Text = "قاعدة البيانات";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.db_name.EditValue = "";
+            this.db_name.Location = new System.Drawing.Point(11, 12);
+            this.db_name.Name = "db_name";
+            this.db_name.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.db_name.Properties.Appearance.Options.UseFont = true;
+            this.db_name.Properties.Appearance.Options.UseTextOptions = true;
+            this.db_name.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.db_name.Properties.AutoHeight = false;
+            this.db_name.Properties.NullText = "1";
+            this.db_name.Properties.Padding = new System.Windows.Forms.Padding(5);
+            this.db_name.Size = new System.Drawing.Size(221, 32);
+            this.db_name.TabIndex = 8;
             // 
-            // stackPanel12
+            // barButtonItem5
             // 
-            this.stackPanel12.Controls.Add(this.label12);
-            this.stackPanel12.Controls.Add(this.selected_db);
-            this.stackPanel12.Controls.Add(this.stackPanel13);
-            this.stackPanel12.Location = new System.Drawing.Point(29, 234);
-            this.stackPanel12.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.stackPanel12.Name = "stackPanel12";
-            this.stackPanel12.Size = new System.Drawing.Size(358, 58);
-            this.stackPanel12.TabIndex = 37;
-            this.stackPanel12.UseSkinIndents = true;
-            // 
-            // stackPanel2
-            // 
-            this.stackPanel2.Controls.Add(this.label2);
-            this.stackPanel2.Controls.Add(this.textEdit1);
-            this.stackPanel2.Location = new System.Drawing.Point(8, 93);
-            this.stackPanel2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.stackPanel2.Name = "stackPanel2";
-            this.stackPanel2.Size = new System.Drawing.Size(358, 41);
-            this.stackPanel2.TabIndex = 34;
-            this.stackPanel2.UseSkinIndents = true;
-            // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(238, 4);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 33);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "المنفذ";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // textEdit1
-            // 
-            this.textEdit1.EditValue = "";
-            this.textEdit1.Location = new System.Drawing.Point(11, 4);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit1.Properties.Appearance.Options.UseFont = true;
-            this.textEdit1.Properties.Appearance.Options.UseTextOptions = true;
-            this.textEdit1.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.textEdit1.Properties.AutoHeight = false;
-            this.textEdit1.Properties.NullText = "1";
-            this.textEdit1.Properties.Padding = new System.Windows.Forms.Padding(5);
-            this.textEdit1.Size = new System.Drawing.Size(221, 32);
-            this.textEdit1.TabIndex = 7;
+            this.barButtonItem5.Caption = "تعديل البيانات";
+            this.barButtonItem5.Id = 5;
+            this.barButtonItem5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.Image")));
+            this.barButtonItem5.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.LargeImage")));
+            this.barButtonItem5.Name = "barButtonItem5";
+            this.barButtonItem5.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            this.barButtonItem5.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem5_ItemClick);
             // 
             // frm_connection
             // 
@@ -638,11 +639,14 @@
             this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "اعدادات قاعدة البيانات";
+            this.Load += new System.EventHandler(this.frm_connection_Load);
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager2)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.grp_wide.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.stackPanel12)).EndInit();
+            this.stackPanel12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel10)).EndInit();
             this.stackPanel10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.server_ip.Properties)).EndInit();
@@ -656,18 +660,13 @@
             this.stackPanel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.user.Properties)).EndInit();
             this.grp_local.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel3)).EndInit();
-            this.stackPanel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pc_name.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel13)).EndInit();
-            this.stackPanel13.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.selected_db.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stackPanel12)).EndInit();
-            this.stackPanel12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel2)).EndInit();
             this.stackPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stackPanel3)).EndInit();
+            this.stackPanel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pc_name.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.db_name.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -712,12 +711,14 @@
         private DevExpress.XtraEditors.TextEdit pc_name;
         private DevExpress.Utils.Layout.StackPanel stackPanel12;
         private System.Windows.Forms.Label label12;
-        private DevExpress.XtraEditors.ComboBoxEdit selected_db;
-        private DevExpress.Utils.Layout.StackPanel stackPanel13;
-        private System.Windows.Forms.Label label13;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit6;
         private DevExpress.Utils.Layout.StackPanel stackPanel2;
         private System.Windows.Forms.Label label2;
         private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem4;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.Label txtBackupPath;
+        private DevExpress.XtraBars.BarStaticItem barStaticItem1;
+        private DevExpress.XtraEditors.TextEdit db_name;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem5;
     }
 }

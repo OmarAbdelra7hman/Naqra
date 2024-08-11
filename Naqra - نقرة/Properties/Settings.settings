@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="server_name" Type="System.String" Scope="User">
-      <Value Profile="(Default)">DESKTOP-II6ME6P</Value>
+      <Value Profile="(Default)">192.168.2.10</Value>
     </Setting>
     <Setting Name="server_port" Type="System.String" Scope="User">
       <Value Profile="(Default)">1433</Value>
@@ -12,13 +12,13 @@
       <Value Profile="(Default)">sa</Value>
     </Setting>
     <Setting Name="pass" Type="System.String" Scope="User">
-      <Value Profile="(Default)">ok</Value>
+      <Value Profile="(Default)">Aaswaq2212</Value>
     </Setting>
     <Setting Name="auth_type" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">0</Value>
+      <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="selected_db" Type="System.String" Scope="User">
-      <Value Profile="(Default)">naqraERP</Value>
+      <Value Profile="(Default)">mansura01012024</Value>
     </Setting>
   </Settings>
 </SettingsFile>

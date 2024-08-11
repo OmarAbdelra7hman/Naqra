@@ -5,6 +5,7 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Naqra___نقرة
 {
@@ -23,16 +24,17 @@ namespace Naqra___نقرة
                 // Connection  by Windows Authentication
                conn = new SqlConnection("Data Source = " + set.server_name + ";Initial Catalog=" + set.selected_db + " ; Integrated Security=True");
             }
-            else if (set.auth_type == 1)
+            else if (set.auth_type == 2)
             {
                 //Connection  by SQL Server Authentication
                 conn = new SqlConnection("Data Source = " + set.server_name + ";Initial Catalog=" + set.selected_db + " ; User ID=" + set.user + ";Password=" + set.pass + "");
             }
 
-            else if (set.auth_type == 2)
+            else if (set.auth_type == 1)
             {
                 //Connection  by Network
-                conn = new SqlConnection("Data Source = " + set.server_name + "," + set.server_port + ";Network Library=DBMSSOCN;Initial Catalog=" + set.selected_db + " User ID=" + set.user + ";Password=" + set.pass + "");
+                conn = new SqlConnection($"Data Source={set.server_name},{set.server_port};Network Library=DBMSSOCN;Initial Catalog={set.selected_db};User ID={set.user};Password={set.pass}");
+
             }
 
             return conn;
@@ -47,8 +49,9 @@ namespace Naqra___نقرة
                 conn.Open();
                 return true;
             }
-            catch (SqlException)
+            catch (SqlException ex)
             {
+                MessageBox.Show(ex.Message.ToString());
                 return false;
             }
         }

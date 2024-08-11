@@ -173,5 +173,11 @@ namespace Naqra___نقرة
         {
 
         }
+
+        private void barButtonItem81_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frm_connection frm_Connection = new frm_connection();
+            frm_Connection.ShowDialog(this);
+        }
     }
 }
