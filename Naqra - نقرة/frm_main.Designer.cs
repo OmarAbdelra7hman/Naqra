@@ -172,6 +172,7 @@
             this.barButtonItem42 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem43 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem46 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem81 = new DevExpress.XtraBars.BarButtonItem();
             this.barDockControl9 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl10 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl11 = new DevExpress.XtraBars.BarDockControl();
@@ -198,7 +199,6 @@
             this.bar5 = new DevExpress.XtraBars.Bar();
             this.stackPanel1 = new DevExpress.Utils.Layout.StackPanel();
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
-            this.barButtonItem81 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pop_main)).BeginInit();
@@ -1194,8 +1194,8 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem14),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem17),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem18),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem13, true),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem15)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem13),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem15, true)});
             this.bar2.OptionsBar.AllowQuickCustomization = false;
             this.bar2.OptionsBar.DisableClose = true;
             this.bar2.OptionsBar.DisableCustomization = true;
@@ -1459,6 +1459,15 @@
             this.barButtonItem46.Name = "barButtonItem46";
             this.barButtonItem46.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem46_ItemClick);
             // 
+            // barButtonItem81
+            // 
+            this.barButtonItem81.Caption = "ادارة قواعد البيانات";
+            this.barButtonItem81.Id = 26;
+            this.barButtonItem81.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem81.ImageOptions.Image")));
+            this.barButtonItem81.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem81.ImageOptions.LargeImage")));
+            this.barButtonItem81.Name = "barButtonItem81";
+            this.barButtonItem81.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem81_ItemClick);
+            // 
             // barDockControl9
             // 
             this.barDockControl9.CausesValidation = false;
@@ -1690,15 +1699,6 @@
             chartTitle1.TextColor = System.Drawing.Color.SteelBlue;
             this.chartControl1.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
             chartTitle1});
-            // 
-            // barButtonItem81
-            // 
-            this.barButtonItem81.Caption = "ادارة قواعد البيانات";
-            this.barButtonItem81.Id = 26;
-            this.barButtonItem81.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem81.ImageOptions.Image")));
-            this.barButtonItem81.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem81.ImageOptions.LargeImage")));
-            this.barButtonItem81.Name = "barButtonItem81";
-            this.barButtonItem81.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem81_ItemClick);
             // 
             // frm_main
             // 

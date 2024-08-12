@@ -127,10 +127,10 @@
     <Compile Include="frm_company.Designer.cs">
       <DependentUpon>frm_company.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_connection.cs">
+    <Compile Include="db\frm_connection.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_connection.Designer.cs">
+    <Compile Include="db\frm_connection.Designer.cs">
       <DependentUpon>frm_connection.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_contact.cs">
@@ -139,16 +139,16 @@
     <Compile Include="frm_contact.Designer.cs">
       <DependentUpon>frm_contact.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_db.cs">
+    <Compile Include="db\frm_db.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_db.Designer.cs">
+    <Compile Include="db\frm_db.Designer.cs">
       <DependentUpon>frm_db.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_donwload.cs">
+    <Compile Include="app update\frm_donwload.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_donwload.Designer.cs">
+    <Compile Include="app update\frm_donwload.Designer.cs">
       <DependentUpon>frm_donwload.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_employee.cs">
@@ -175,10 +175,10 @@
     <Compile Include="frm_sanad.Designer.cs">
       <DependentUpon>frm_sanad.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_update.cs">
+    <Compile Include="app update\frm_update.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_update.Designer.cs">
+    <Compile Include="app update\frm_update.Designer.cs">
       <DependentUpon>frm_update.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_users.cs">
@@ -211,16 +211,16 @@
     <EmbeddedResource Include="frm_company.resx">
       <DependentUpon>frm_company.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_connection.resx">
+    <EmbeddedResource Include="db\frm_connection.resx">
       <DependentUpon>frm_connection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_contact.resx">
       <DependentUpon>frm_contact.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_db.resx">
+    <EmbeddedResource Include="db\frm_db.resx">
       <DependentUpon>frm_db.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_donwload.resx">
+    <EmbeddedResource Include="app update\frm_donwload.resx">
       <DependentUpon>frm_donwload.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_employee.resx">
@@ -235,7 +235,7 @@
     <EmbeddedResource Include="frm_sanad.resx">
       <DependentUpon>frm_sanad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_update.resx">
+    <EmbeddedResource Include="app update\frm_update.resx">
       <DependentUpon>frm_update.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_users.resx">

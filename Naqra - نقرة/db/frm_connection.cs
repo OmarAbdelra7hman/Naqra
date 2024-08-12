@@ -15,10 +15,16 @@ namespace Naqra___نقرة
 {
     public partial class frm_connection : DevExpress.XtraEditors.XtraForm
     {
-        public frm_connection()
+        String dbName = Properties.Settings.Default.selected_db;
+        public frm_connection(String db = "")
         {
             InitializeComponent();
             getConnData();
+
+            if (db != "")
+            {
+                db_name.Text = db;
+            }
         
         }
 
@@ -101,6 +107,8 @@ namespace Naqra___نقرة
         {
            
             setData();
+            barButtonItem3.Enabled = false;
+            barButtonItem5.Enabled = true;
             MessageBox.Show("تم حفظ البيانات بنجاح");
             groupBox1.Enabled = false;
         }
@@ -180,14 +188,20 @@ namespace Naqra___نقرة
         }
 
         private void barButtonItem5_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+
         {
+            barButtonItem5.Enabled = false;
+            barButtonItem3.Enabled = true;
             groupBox1.Enabled = true;
         }
 
         private void barButtonItem6_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             frm_db frm_Db = new frm_db();
+            
              frm_Db.ShowDialog();
+            db_name.Text = Properties.Settings.Default.selected_db;
+            
         }
     }
 }

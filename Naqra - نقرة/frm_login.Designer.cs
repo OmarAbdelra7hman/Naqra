@@ -114,16 +114,16 @@
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
             this.barDockControlTop.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
-            this.barDockControlTop.Size = new System.Drawing.Size(410, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(779, 0);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 704);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 404);
             this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
-            this.barDockControlBottom.Size = new System.Drawing.Size(410, 26);
+            this.barDockControlBottom.Size = new System.Drawing.Size(779, 26);
             // 
             // barDockControlLeft
             // 
@@ -132,16 +132,16 @@
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
             this.barDockControlLeft.Manager = this.barManager1;
             this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 704);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 404);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(410, 0);
+            this.barDockControlRight.Location = new System.Drawing.Point(779, 0);
             this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 704);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 404);
             // 
             // barButtonItem1
             // 
@@ -204,7 +204,7 @@
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(152)))), ((int)(((byte)(235)))));
             this.guna2Button1.Font = new System.Drawing.Font("beIN Normal ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(49, 515);
+            this.guna2Button1.Location = new System.Drawing.Point(40, 270);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(321, 41);
             this.guna2Button1.TabIndex = 19;
@@ -214,7 +214,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(43, 314);
+            this.label1.Location = new System.Drawing.Point(34, 69);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 31);
             this.label1.TabIndex = 26;
@@ -223,7 +223,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(43, 404);
+            this.label2.Location = new System.Drawing.Point(34, 159);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 31);
             this.label2.TabIndex = 27;
@@ -232,7 +232,7 @@
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(49, 349);
+            this.textEdit1.Location = new System.Drawing.Point(40, 104);
             this.textEdit1.MenuManager = this.barManager1;
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -245,7 +245,7 @@
             // 
             // textEdit2
             // 
-            this.textEdit2.Location = new System.Drawing.Point(51, 443);
+            this.textEdit2.Location = new System.Drawing.Point(42, 198);
             this.textEdit2.MenuManager = this.barManager1;
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -260,9 +260,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Naqra___نقرة.Properties.Resources.undraw_Login_re_4vu2__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(62, 74);
+            this.pictureBox1.Location = new System.Drawing.Point(400, 89);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(296, 186);
+            this.pictureBox1.Size = new System.Drawing.Size(349, 238);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 51;
             this.pictureBox1.TabStop = false;
@@ -271,7 +271,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(410, 730);
+            this.ClientSize = new System.Drawing.Size(779, 430);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textEdit2);
             this.Controls.Add(this.textEdit1);

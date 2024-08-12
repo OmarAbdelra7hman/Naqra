@@ -119,14 +119,16 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 42);
             this.barDockControlTop.Manager = this.barManager1;
+            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.barDockControlTop.Size = new System.Drawing.Size(879, 0);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 463);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 462);
             this.barDockControlBottom.Manager = this.barManager1;
+            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.barDockControlBottom.Size = new System.Drawing.Size(879, 0);
             // 
             // barDockControlLeft
@@ -135,7 +137,8 @@
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 42);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 421);
+            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 420);
             // 
             // barDockControlRight
             // 
@@ -143,7 +146,8 @@
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControlRight.Location = new System.Drawing.Point(879, 42);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 421);
+            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 420);
             // 
             // barManager2
             // 
@@ -198,6 +202,7 @@
             // barButtonItem3
             // 
             this.barButtonItem3.Caption = "حفظ الإعدادات الحالية";
+            this.barButtonItem3.Enabled = false;
             this.barButtonItem3.Id = 2;
             this.barButtonItem3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.Image")));
             this.barButtonItem3.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
@@ -269,14 +274,16 @@
             this.barDockControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControl1.Location = new System.Drawing.Point(0, 0);
             this.barDockControl1.Manager = this.barManager2;
+            this.barDockControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.barDockControl1.Size = new System.Drawing.Size(879, 42);
             // 
             // barDockControl2
             // 
             this.barDockControl2.CausesValidation = false;
             this.barDockControl2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControl2.Location = new System.Drawing.Point(0, 463);
+            this.barDockControl2.Location = new System.Drawing.Point(0, 462);
             this.barDockControl2.Manager = this.barManager2;
+            this.barDockControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.barDockControl2.Size = new System.Drawing.Size(879, 40);
             // 
             // barDockControl3
@@ -285,7 +292,8 @@
             this.barDockControl3.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControl3.Location = new System.Drawing.Point(0, 42);
             this.barDockControl3.Manager = this.barManager2;
-            this.barDockControl3.Size = new System.Drawing.Size(0, 421);
+            this.barDockControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.barDockControl3.Size = new System.Drawing.Size(0, 420);
             // 
             // barDockControl4
             // 
@@ -293,7 +301,8 @@
             this.barDockControl4.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControl4.Location = new System.Drawing.Point(879, 42);
             this.barDockControl4.Manager = this.barManager2;
-            this.barDockControl4.Size = new System.Drawing.Size(0, 421);
+            this.barDockControl4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.barDockControl4.Size = new System.Drawing.Size(0, 420);
             // 
             // groupBox1
             // 
@@ -303,8 +312,10 @@
             this.groupBox1.Controls.Add(this.radio_wide);
             this.groupBox1.Controls.Add(this.radio_local);
             this.groupBox1.Enabled = false;
-            this.groupBox1.Location = new System.Drawing.Point(25, 59);
+            this.groupBox1.Location = new System.Drawing.Point(25, 60);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Size = new System.Drawing.Size(831, 398);
             this.groupBox1.TabIndex = 27;
             this.groupBox1.TabStop = false;
@@ -313,7 +324,7 @@
             // txtBackupPath
             // 
             this.txtBackupPath.AutoSize = true;
-            this.txtBackupPath.Location = new System.Drawing.Point(130, 38);
+            this.txtBackupPath.Location = new System.Drawing.Point(131, 38);
             this.txtBackupPath.Name = "txtBackupPath";
             this.txtBackupPath.Size = new System.Drawing.Size(49, 31);
             this.txtBackupPath.TabIndex = 29;
@@ -327,8 +338,10 @@
             this.grp_wide.Controls.Add(this.stackPanel1);
             this.grp_wide.Controls.Add(this.stackPanel8);
             this.grp_wide.Controls.Add(this.stackPanel6);
-            this.grp_wide.Location = new System.Drawing.Point(21, 77);
+            this.grp_wide.Location = new System.Drawing.Point(21, 76);
+            this.grp_wide.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grp_wide.Name = "grp_wide";
+            this.grp_wide.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grp_wide.Size = new System.Drawing.Size(399, 298);
             this.grp_wide.TabIndex = 28;
             this.grp_wide.TabStop = false;
@@ -341,14 +354,14 @@
             this.stackPanel12.Location = new System.Drawing.Point(29, 234);
             this.stackPanel12.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.stackPanel12.Name = "stackPanel12";
-            this.stackPanel12.Size = new System.Drawing.Size(358, 58);
+            this.stackPanel12.Size = new System.Drawing.Size(357, 57);
             this.stackPanel12.TabIndex = 37;
             this.stackPanel12.UseSkinIndents = true;
             // 
             // label12
             // 
             this.label12.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(238, 12);
+            this.label12.Location = new System.Drawing.Point(237, 11);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(105, 33);
@@ -359,7 +372,8 @@
             // db_name
             // 
             this.db_name.EditValue = "";
-            this.db_name.Location = new System.Drawing.Point(11, 12);
+            this.db_name.Location = new System.Drawing.Point(9, 12);
+            this.db_name.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.db_name.Name = "db_name";
             this.db_name.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.db_name.Properties.Appearance.Options.UseFont = true;
@@ -368,7 +382,7 @@
             this.db_name.Properties.AutoHeight = false;
             this.db_name.Properties.NullText = "1";
             this.db_name.Properties.Padding = new System.Windows.Forms.Padding(5);
-            this.db_name.Size = new System.Drawing.Size(221, 32);
+            this.db_name.Size = new System.Drawing.Size(221, 31);
             this.db_name.TabIndex = 8;
             // 
             // stackPanel10
@@ -378,14 +392,14 @@
             this.stackPanel10.Location = new System.Drawing.Point(29, 31);
             this.stackPanel10.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.stackPanel10.Name = "stackPanel10";
-            this.stackPanel10.Size = new System.Drawing.Size(358, 41);
+            this.stackPanel10.Size = new System.Drawing.Size(357, 41);
             this.stackPanel10.TabIndex = 32;
             this.stackPanel10.UseSkinIndents = true;
             // 
             // label10
             // 
             this.label10.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(238, 4);
+            this.label10.Location = new System.Drawing.Point(237, 4);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(105, 33);
@@ -396,7 +410,8 @@
             // server_ip
             // 
             this.server_ip.EditValue = "";
-            this.server_ip.Location = new System.Drawing.Point(11, 4);
+            this.server_ip.Location = new System.Drawing.Point(9, 5);
+            this.server_ip.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.server_ip.Name = "server_ip";
             this.server_ip.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.server_ip.Properties.Appearance.Options.UseFont = true;
@@ -405,24 +420,24 @@
             this.server_ip.Properties.AutoHeight = false;
             this.server_ip.Properties.NullText = "1";
             this.server_ip.Properties.Padding = new System.Windows.Forms.Padding(5);
-            this.server_ip.Size = new System.Drawing.Size(221, 32);
+            this.server_ip.Size = new System.Drawing.Size(221, 31);
             this.server_ip.TabIndex = 6;
             // 
             // stackPanel1
             // 
             this.stackPanel1.Controls.Add(this.label1);
             this.stackPanel1.Controls.Add(this.pass);
-            this.stackPanel1.Location = new System.Drawing.Point(29, 190);
+            this.stackPanel1.Location = new System.Drawing.Point(29, 191);
             this.stackPanel1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.stackPanel1.Name = "stackPanel1";
-            this.stackPanel1.Size = new System.Drawing.Size(358, 41);
+            this.stackPanel1.Size = new System.Drawing.Size(357, 41);
             this.stackPanel1.TabIndex = 35;
             this.stackPanel1.UseSkinIndents = true;
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(238, 4);
+            this.label1.Location = new System.Drawing.Point(237, 4);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(105, 33);
@@ -433,7 +448,8 @@
             // pass
             // 
             this.pass.EditValue = "";
-            this.pass.Location = new System.Drawing.Point(11, 4);
+            this.pass.Location = new System.Drawing.Point(9, 5);
+            this.pass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pass.Name = "pass";
             this.pass.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pass.Properties.Appearance.Options.UseFont = true;
@@ -442,24 +458,24 @@
             this.pass.Properties.AutoHeight = false;
             this.pass.Properties.NullText = "1";
             this.pass.Properties.Padding = new System.Windows.Forms.Padding(5);
-            this.pass.Size = new System.Drawing.Size(221, 32);
+            this.pass.Size = new System.Drawing.Size(221, 31);
             this.pass.TabIndex = 7;
             // 
             // stackPanel8
             // 
             this.stackPanel8.Controls.Add(this.label8);
             this.stackPanel8.Controls.Add(this.server_port);
-            this.stackPanel8.Location = new System.Drawing.Point(29, 87);
+            this.stackPanel8.Location = new System.Drawing.Point(29, 86);
             this.stackPanel8.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.stackPanel8.Name = "stackPanel8";
-            this.stackPanel8.Size = new System.Drawing.Size(358, 41);
+            this.stackPanel8.Size = new System.Drawing.Size(357, 41);
             this.stackPanel8.TabIndex = 33;
             this.stackPanel8.UseSkinIndents = true;
             // 
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(238, 4);
+            this.label8.Location = new System.Drawing.Point(237, 4);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(105, 33);
@@ -470,7 +486,8 @@
             // server_port
             // 
             this.server_port.EditValue = "";
-            this.server_port.Location = new System.Drawing.Point(11, 4);
+            this.server_port.Location = new System.Drawing.Point(9, 5);
+            this.server_port.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.server_port.Name = "server_port";
             this.server_port.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.server_port.Properties.Appearance.Options.UseFont = true;
@@ -479,7 +496,7 @@
             this.server_port.Properties.AutoHeight = false;
             this.server_port.Properties.NullText = "1";
             this.server_port.Properties.Padding = new System.Windows.Forms.Padding(5);
-            this.server_port.Size = new System.Drawing.Size(221, 32);
+            this.server_port.Size = new System.Drawing.Size(221, 31);
             this.server_port.TabIndex = 7;
             // 
             // stackPanel6
@@ -489,14 +506,14 @@
             this.stackPanel6.Location = new System.Drawing.Point(29, 143);
             this.stackPanel6.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.stackPanel6.Name = "stackPanel6";
-            this.stackPanel6.Size = new System.Drawing.Size(358, 41);
+            this.stackPanel6.Size = new System.Drawing.Size(357, 41);
             this.stackPanel6.TabIndex = 34;
             this.stackPanel6.UseSkinIndents = true;
             // 
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(238, 4);
+            this.label6.Location = new System.Drawing.Point(237, 4);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(105, 33);
@@ -507,7 +524,8 @@
             // user
             // 
             this.user.EditValue = "";
-            this.user.Location = new System.Drawing.Point(11, 4);
+            this.user.Location = new System.Drawing.Point(9, 5);
+            this.user.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.user.Name = "user";
             this.user.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.user.Properties.Appearance.Options.UseFont = true;
@@ -516,16 +534,18 @@
             this.user.Properties.AutoHeight = false;
             this.user.Properties.NullText = "1";
             this.user.Properties.Padding = new System.Windows.Forms.Padding(5);
-            this.user.Size = new System.Drawing.Size(221, 32);
+            this.user.Size = new System.Drawing.Size(221, 31);
             this.user.TabIndex = 7;
             // 
             // grp_local
             // 
             this.grp_local.Controls.Add(this.stackPanel2);
             this.grp_local.Controls.Add(this.stackPanel3);
-            this.grp_local.Location = new System.Drawing.Point(447, 77);
+            this.grp_local.Location = new System.Drawing.Point(447, 76);
+            this.grp_local.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grp_local.Name = "grp_local";
-            this.grp_local.Size = new System.Drawing.Size(370, 151);
+            this.grp_local.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grp_local.Size = new System.Drawing.Size(371, 150);
             this.grp_local.TabIndex = 28;
             this.grp_local.TabStop = false;
             this.grp_local.Text = "داخلي";
@@ -537,14 +557,14 @@
             this.stackPanel2.Location = new System.Drawing.Point(8, 93);
             this.stackPanel2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.stackPanel2.Name = "stackPanel2";
-            this.stackPanel2.Size = new System.Drawing.Size(358, 41);
+            this.stackPanel2.Size = new System.Drawing.Size(357, 41);
             this.stackPanel2.TabIndex = 34;
             this.stackPanel2.UseSkinIndents = true;
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(238, 4);
+            this.label2.Location = new System.Drawing.Point(237, 4);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(105, 33);
@@ -555,7 +575,8 @@
             // textEdit1
             // 
             this.textEdit1.EditValue = "";
-            this.textEdit1.Location = new System.Drawing.Point(11, 4);
+            this.textEdit1.Location = new System.Drawing.Point(9, 5);
+            this.textEdit1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit1.Properties.Appearance.Options.UseFont = true;
@@ -564,7 +585,7 @@
             this.textEdit1.Properties.AutoHeight = false;
             this.textEdit1.Properties.NullText = "1";
             this.textEdit1.Properties.Padding = new System.Windows.Forms.Padding(5);
-            this.textEdit1.Size = new System.Drawing.Size(221, 32);
+            this.textEdit1.Size = new System.Drawing.Size(221, 31);
             this.textEdit1.TabIndex = 7;
             // 
             // stackPanel3
@@ -574,14 +595,14 @@
             this.stackPanel3.Location = new System.Drawing.Point(7, 29);
             this.stackPanel3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.stackPanel3.Name = "stackPanel3";
-            this.stackPanel3.Size = new System.Drawing.Size(358, 58);
+            this.stackPanel3.Size = new System.Drawing.Size(357, 57);
             this.stackPanel3.TabIndex = 32;
             this.stackPanel3.UseSkinIndents = true;
             // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(238, 12);
+            this.label4.Location = new System.Drawing.Point(237, 11);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(105, 33);
@@ -592,7 +613,8 @@
             // pc_name
             // 
             this.pc_name.EditValue = "";
-            this.pc_name.Location = new System.Drawing.Point(11, 12);
+            this.pc_name.Location = new System.Drawing.Point(9, 12);
+            this.pc_name.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pc_name.Name = "pc_name";
             this.pc_name.Properties.Appearance.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pc_name.Properties.Appearance.Options.UseFont = true;
@@ -601,13 +623,14 @@
             this.pc_name.Properties.AutoHeight = false;
             this.pc_name.Properties.NullText = "1";
             this.pc_name.Properties.Padding = new System.Windows.Forms.Padding(5);
-            this.pc_name.Size = new System.Drawing.Size(221, 32);
+            this.pc_name.Size = new System.Drawing.Size(221, 31);
             this.pc_name.TabIndex = 6;
             // 
             // radio_wide
             // 
             this.radio_wide.AutoSize = true;
             this.radio_wide.Location = new System.Drawing.Point(281, 36);
+            this.radio_wide.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radio_wide.Name = "radio_wide";
             this.radio_wide.Size = new System.Drawing.Size(139, 35);
             this.radio_wide.TabIndex = 2;
@@ -620,6 +643,7 @@
             // 
             this.radio_local.AutoSize = true;
             this.radio_local.Location = new System.Drawing.Point(731, 36);
+            this.radio_local.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radio_local.Name = "radio_local";
             this.radio_local.Size = new System.Drawing.Size(86, 35);
             this.radio_local.TabIndex = 1;
@@ -635,7 +659,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(879, 503);
+            this.ClientSize = new System.Drawing.Size(879, 502);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
@@ -646,6 +670,7 @@
             this.Controls.Add(this.barDockControl2);
             this.Controls.Add(this.barDockControl1);
             this.IconOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("frm_connection.IconOptions.LargeImage")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "frm_connection";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;

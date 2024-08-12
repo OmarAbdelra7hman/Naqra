@@ -18,7 +18,7 @@ namespace Naqra___نقرة
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_login());
+            Application.Run(new SplashScreen1());
         }
     }
 }
