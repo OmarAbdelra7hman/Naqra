@@ -1201,6 +1201,7 @@
             this.bar2.OptionsBar.DisableCustomization = true;
             this.bar2.OptionsBar.DistanceBetweenItems = 10;
             this.bar2.OptionsBar.DrawBorder = false;
+            this.bar2.OptionsBar.DrawDragBorder = false;
             this.bar2.OptionsBar.MultiLine = true;
             this.bar2.OptionsBar.UseWholeRow = true;
             this.bar2.Text = "Main menu";

@@ -195,14 +195,13 @@
             // 
             // guna2Button1
             // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.BorderRadius = 7;
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(152)))), ((int)(((byte)(235)))));
-            this.guna2Button1.Font = new System.Drawing.Font("beIN Normal ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.Font = new System.Drawing.Font("beIN Normal ", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Location = new System.Drawing.Point(40, 270);
             this.guna2Button1.Name = "guna2Button1";

@@ -187,6 +187,7 @@
     <Compile Include="frm_users.Designer.cs">
       <DependentUpon>frm_users.cs</DependentUpon>
     </Compile>
+    <Compile Include="GeneralClass.cs" />
     <Compile Include="myFunc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -291,6 +292,11 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="cls\" />
+    <Folder Include="purchases\" />
+    <Folder Include="sales\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

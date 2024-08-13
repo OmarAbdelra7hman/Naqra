@@ -75,18 +75,6 @@
             this.stackPanel3 = new DevExpress.Utils.Layout.StackPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.user_enabled = new DevExpress.XtraEditors.ToggleSwitch();
-            this.tabNavigationPage2 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
-            this.sidePanel1 = new DevExpress.XtraEditors.SidePanel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.form_number = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.form_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.form_view = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.add = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.edit = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.delete = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.print = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fav = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.start = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabNavigationPage3 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.sidePanel2 = new DevExpress.XtraEditors.SidePanel();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
@@ -134,9 +122,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel3)).BeginInit();
             this.stackPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.user_enabled.Properties)).BeginInit();
-            this.tabNavigationPage2.SuspendLayout();
-            this.sidePanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabNavigationPage3.SuspendLayout();
             this.sidePanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -148,15 +133,13 @@
             // tabPane1
             // 
             this.tabPane1.Controls.Add(this.tabNavigationPage1);
-            this.tabPane1.Controls.Add(this.tabNavigationPage2);
             this.tabPane1.Controls.Add(this.tabNavigationPage3);
             this.tabPane1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabPane1.Location = new System.Drawing.Point(0, 91);
             this.tabPane1.Name = "tabPane1";
             this.tabPane1.Pages.AddRange(new DevExpress.XtraBars.Navigation.NavigationPageBase[] {
             this.tabNavigationPage1,
-            this.tabNavigationPage3,
-            this.tabNavigationPage2});
+            this.tabNavigationPage3});
             this.tabPane1.RegularSize = new System.Drawing.Size(1080, 545);
             this.tabPane1.SelectedPage = this.tabNavigationPage3;
             this.tabPane1.Size = new System.Drawing.Size(1080, 545);
@@ -225,7 +208,7 @@
             // label14
             // 
             this.label14.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(15, 9);
+            this.label14.Location = new System.Drawing.Point(384, 9);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(110, 33);
@@ -236,7 +219,7 @@
             // textEdit4
             // 
             this.textEdit4.Enabled = false;
-            this.textEdit4.Location = new System.Drawing.Point(131, 10);
+            this.textEdit4.Location = new System.Drawing.Point(48, 10);
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Properties.Appearance.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit4.Properties.Appearance.Options.UseFont = true;
@@ -262,7 +245,7 @@
             // label10
             // 
             this.label10.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(15, 9);
+            this.label10.Location = new System.Drawing.Point(384, 9);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(110, 33);
@@ -272,7 +255,7 @@
             // 
             // textEdit8
             // 
-            this.textEdit8.Location = new System.Drawing.Point(131, 10);
+            this.textEdit8.Location = new System.Drawing.Point(48, 10);
             this.textEdit8.Name = "textEdit8";
             this.textEdit8.Properties.Appearance.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit8.Properties.Appearance.Options.UseFont = true;
@@ -295,7 +278,7 @@
             // label11
             // 
             this.label11.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(15, 9);
+            this.label11.Location = new System.Drawing.Point(384, 9);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(110, 33);
@@ -305,7 +288,7 @@
             // 
             // textEdit7
             // 
-            this.textEdit7.Location = new System.Drawing.Point(131, 10);
+            this.textEdit7.Location = new System.Drawing.Point(48, 10);
             this.textEdit7.Name = "textEdit7";
             this.textEdit7.Properties.Appearance.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit7.Properties.Appearance.Options.UseFont = true;
@@ -327,7 +310,7 @@
             // label12
             // 
             this.label12.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(15, 9);
+            this.label12.Location = new System.Drawing.Point(384, 9);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(110, 33);
@@ -337,7 +320,7 @@
             // 
             // textEdit6
             // 
-            this.textEdit6.Location = new System.Drawing.Point(131, 10);
+            this.textEdit6.Location = new System.Drawing.Point(48, 10);
             this.textEdit6.Name = "textEdit6";
             this.textEdit6.Properties.Appearance.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit6.Properties.Appearance.Options.UseFont = true;
@@ -360,7 +343,7 @@
             // label13
             // 
             this.label13.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(15, 9);
+            this.label13.Location = new System.Drawing.Point(384, 9);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(110, 33);
@@ -370,7 +353,7 @@
             // 
             // textEdit5
             // 
-            this.textEdit5.Location = new System.Drawing.Point(131, 10);
+            this.textEdit5.Location = new System.Drawing.Point(48, 10);
             this.textEdit5.Name = "textEdit5";
             this.textEdit5.Properties.Appearance.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit5.Properties.Appearance.Options.UseFont = true;
@@ -392,7 +375,7 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(15, 9);
+            this.label1.Location = new System.Drawing.Point(384, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(110, 33);
@@ -402,7 +385,7 @@
             // 
             // comboBoxEdit1
             // 
-            this.comboBoxEdit1.Location = new System.Drawing.Point(131, 10);
+            this.comboBoxEdit1.Location = new System.Drawing.Point(48, 10);
             this.comboBoxEdit1.MenuManager = this.operation_bar;
             this.comboBoxEdit1.Name = "comboBoxEdit1";
             this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Arial Narrow", 9F);
@@ -591,7 +574,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("beIN Normal ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(15, 9);
+            this.label2.Location = new System.Drawing.Point(384, 9);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 33);
@@ -601,7 +584,7 @@
             // 
             // comboBoxEdit2
             // 
-            this.comboBoxEdit2.Location = new System.Drawing.Point(131, 10);
+            this.comboBoxEdit2.Location = new System.Drawing.Point(48, 10);
             this.comboBoxEdit2.MenuManager = this.operation_bar;
             this.comboBoxEdit2.Name = "comboBoxEdit2";
             this.comboBoxEdit2.Properties.Appearance.Font = new System.Drawing.Font("Arial Narrow", 9F);
@@ -647,87 +630,6 @@
             this.user_enabled.Properties.OnText = "مفعل";
             this.user_enabled.Size = new System.Drawing.Size(167, 24);
             this.user_enabled.TabIndex = 1;
-            // 
-            // tabNavigationPage2
-            // 
-            this.tabNavigationPage2.Caption = "المستندات المرتبطة";
-            this.tabNavigationPage2.Controls.Add(this.sidePanel1);
-            this.tabNavigationPage2.Name = "tabNavigationPage2";
-            this.tabNavigationPage2.Size = new System.Drawing.Size(1080, 596);
-            // 
-            // sidePanel1
-            // 
-            this.sidePanel1.Controls.Add(this.dataGridView1);
-            this.sidePanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.sidePanel1.Location = new System.Drawing.Point(0, 0);
-            this.sidePanel1.Name = "sidePanel1";
-            this.sidePanel1.Size = new System.Drawing.Size(770, 596);
-            this.sidePanel1.TabIndex = 0;
-            this.sidePanel1.Text = "sidePanel1";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.form_number,
-            this.form_name,
-            this.form_view,
-            this.add,
-            this.edit,
-            this.delete,
-            this.print,
-            this.fav,
-            this.start});
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(1, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(769, 596);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // form_number
-            // 
-            this.form_number.HeaderText = "رقم الشاشة";
-            this.form_number.Name = "form_number";
-            // 
-            // form_name
-            // 
-            this.form_name.HeaderText = "اسم الشاشة";
-            this.form_name.Name = "form_name";
-            // 
-            // form_view
-            // 
-            this.form_view.HeaderText = "عرض ";
-            this.form_view.Name = "form_view";
-            // 
-            // add
-            // 
-            this.add.HeaderText = "جديد";
-            this.add.Name = "add";
-            // 
-            // edit
-            // 
-            this.edit.HeaderText = "تعديل";
-            this.edit.Name = "edit";
-            // 
-            // delete
-            // 
-            this.delete.HeaderText = "حذف";
-            this.delete.Name = "delete";
-            // 
-            // print
-            // 
-            this.print.HeaderText = "طباعة";
-            this.print.Name = "print";
-            // 
-            // fav
-            // 
-            this.fav.HeaderText = "المفضلة";
-            this.fav.Name = "fav";
-            // 
-            // start
-            // 
-            this.start.HeaderText = "البداية";
-            this.start.Name = "start";
             // 
             // tabNavigationPage3
             // 
@@ -961,9 +863,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.stackPanel3)).EndInit();
             this.stackPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.user_enabled.Properties)).EndInit();
-            this.tabNavigationPage2.ResumeLayout(false);
-            this.sidePanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabNavigationPage3.ResumeLayout(false);
             this.sidePanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
@@ -996,7 +895,6 @@
         private System.Windows.Forms.Label label13;
         private DevExpress.XtraEditors.TextEdit textEdit5;
         private DevExpress.Utils.Layout.StackPanel stackPanel14;
-        private DevExpress.XtraBars.Navigation.TabNavigationPage tabNavigationPage2;
         private DevExpress.XtraBars.BarManager operation_bar;
         private DevExpress.XtraBars.Bar bar1;
         private DevExpress.XtraBars.BarButtonItem btn_edit;
@@ -1028,18 +926,7 @@
         private DevExpress.XtraEditors.ToggleSwitch user_enabled;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private DevExpress.XtraEditors.SidePanel sidePanel1;
         private DevExpress.XtraBars.Navigation.TabNavigationPage tabNavigationPage3;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn form_number;
-        private System.Windows.Forms.DataGridViewTextBoxColumn form_name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn form_view;
-        private System.Windows.Forms.DataGridViewTextBoxColumn add;
-        private System.Windows.Forms.DataGridViewTextBoxColumn edit;
-        private System.Windows.Forms.DataGridViewTextBoxColumn delete;
-        private System.Windows.Forms.DataGridViewTextBoxColumn print;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fav;
-        private System.Windows.Forms.DataGridViewTextBoxColumn start;
         private DevExpress.XtraVerticalGrid.Tab tab1;
         private DevExpress.XtraVerticalGrid.Tab tab2;
         private DevExpress.XtraVerticalGrid.Tab tab3;
